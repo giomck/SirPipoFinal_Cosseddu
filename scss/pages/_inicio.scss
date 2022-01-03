@@ -47,7 +47,7 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
         font-size: 60px;
         font-variant: small-caps;
         font-weight: bold;
-        color: map-get($map: $colores, $key:dorado);
+        color: map-get($map: $colores, $key:blanco);
     }
     p{
         color: whitesmoke;
@@ -74,7 +74,7 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
         font-size: 80px;
         font-variant: small-caps;
         font-weight: bold;
-        color: map-get($map: $colores, $key: rojo );
+        color: map-get($map: $colores, $key: blanco );
     }
     p{
         color: whitesmoke;

@@ -45,7 +45,7 @@ body {
   font-size: 60px;
   font-variant: small-caps;
   font-weight: bold;
-  color: #8A7D5C; }
+  color: whitesmoke; }
 
 .section1 p {
   color: whitesmoke;
@@ -70,7 +70,7 @@ body {
   font-size: 80px;
   font-variant: small-caps;
   font-weight: bold;
-  color: #841617; }
+  color: whitesmoke; }
 
 .section2 p {
   color: whitesmoke;
@@ -151,3 +151,68 @@ body {
     font-size: 1rem;
     margin: 0px;
     text-align: center; } }
+
+.origen {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5px;
+  padding: 80px 50px; }
+  .origen h1 {
+    font-size: 80px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: whitesmoke; }
+  .origen .origen1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px; }
+  .origen p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    padding-right: 100px; }
+  .origen a {
+    text-decoration: none; }
+
+.destilacion {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px; }
+  .destilacion .destilacion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .destilacion h2 {
+    font-size: 60px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: whitesmoke; }
+  .destilacion p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    padding-left: 80px; }
+  .destilacion a {
+    text-decoration: none; }
+
+.sirpipo2 {
+  height: 100vh;
+  padding: 0px 50px; }
+  .sirpipo2 p {
+    text-align: justify;
+    font-size: 18px;
+    color: #8A7D5C;
+    font-style: italic;
+    padding-top: 10px; }
