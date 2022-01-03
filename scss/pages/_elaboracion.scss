@@ -1,0 +1,59 @@
+$colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
+
+@mixin flex($dir,$just,$ali) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $just;
+    align-items: $ali;
+}
+.origen{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+    h1{
+        font-size: 80px;
+        font-variant: small-caps;
+        font-weight: bold;
+        color: map-get($map: $colores, $key: blanco);
+    }
+    .origen1{
+        @include flex(column, center , center);
+        margin-top: 150px;
+    }
+    // p{
+    //     color: whitesmoke;
+    //     font-size: 23px;
+    //     font-style: italic;
+    //     }
+    // a{
+    //     text-decoration: none;
+    // }  
+}
+.destilacion{
+    .destilacion1{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 5px;
+        @include flex(column, center , center);
+    }
+    h2{
+        font-size: 60px;
+        font-variant: small-caps;
+        font-weight: bold;
+        color: map-get($map: $colores, $key:dorado);
+    }
+    p{
+        color: whitesmoke;
+        font-size: 20px;
+        font-style: italic;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .section1_2{
+        @extend .section1_1;
+    }
+}    
