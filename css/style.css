@@ -210,9 +210,82 @@ body {
 .sirpipo2 {
   height: 100vh;
   padding: 0px 50px; }
-  .sirpipo2 p {
-    text-align: justify;
-    font-size: 18px;
+  .sirpipo2 .sirpipo2_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; }
+  .sirpipo2 h3 {
+    font-size: 40px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: none;
     color: #8A7D5C;
+    text-align: left; }
+  .sirpipo2 p {
+    font-size: 18px;
+    font-variant: none;
+    font-weight: none;
     font-style: italic;
+    text-align: justify;
+    color: #8A7D5C;
     padding-top: 10px; }
+  .sirpipo2 .sirpipo2_2, .sirpipo2 .sirpipo5 .sirpipo5_1 img, .sirpipo5 .sirpipo5_1 .sirpipo2 img, .sirpipo2 .sirpipo6 .sirpipo6_2 img, .sirpipo6 .sirpipo6_2 .sirpipo2 img {
+    display: flex;
+    justify-content: center; }
+  .sirpipo2 .sirpipo2_2 img, .sirpipo2 .sirpipo5 .sirpipo5_1 img img, .sirpipo5 .sirpipo5_1 .sirpipo2 img img, .sirpipo2 .sirpipo6 .sirpipo6_2 img img, .sirpipo6 .sirpipo6_2 .sirpipo2 img img {
+    padding-top: 10px; }
+
+.sirpipo5 {
+  height: 100vh;
+  padding: 0px 50px; }
+  .sirpipo5 .sirpipo5_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; }
+  .sirpipo5 h3 {
+    font-size: 40px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: none;
+    color: #8A7D5C;
+    text-align: right; }
+  .sirpipo5 p {
+    font-size: 18px;
+    font-variant: none;
+    font-weight: none;
+    font-style: italic;
+    text-align: justify;
+    color: #8A7D5C;
+    padding-top: 10px; }
+  .sirpipo5 .sirpipo5_1 {
+    display: flex;
+    justify-content: center; }
+
+.sirpipo6 {
+  height: 100vh;
+  padding: 0px 50px; }
+  .sirpipo6 .sirpipo6_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; }
+  .sirpipo6 h3 {
+    font-size: 40px;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: none;
+    color: #8A7D5C;
+    text-align: left; }
+  .sirpipo6 p {
+    font-size: 18px;
+    font-variant: none;
+    font-weight: none;
+    font-style: italic;
+    text-align: justify;
+    color: #8A7D5C;
+    padding-top: 10px; }
+  .sirpipo6 .sirpipo6_2 {
+    display: flex;
+    justify-content: center; }
