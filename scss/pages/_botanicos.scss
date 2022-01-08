@@ -1,0 +1,27 @@
+.botanicos{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+    padding: 80px 50px;
+    h1{
+        font-size: 80px;
+        font-variant: small-caps;
+        font-weight: bold;
+        color: map-get($map: $colores, $key: blanco);
+    }
+    .botanicos1{
+        @include flex(row-reverse, center , center);
+        margin-top: 150px;
+    }
+    p{
+        @include font(20px, none, none, italic);
+        color: whitesmoke;
+        text-align: right;
+        padding-right: 100px;
+        padding-top: 30px;
+    }
+    a{
+        text-decoration: none;
+    }   
+}
