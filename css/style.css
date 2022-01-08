@@ -7,78 +7,24 @@ body {
 
 .logo {
   padding-right: 100px; }
+  .logo .logo img {
+    width: 60px;
+    height: auto; }
 
-.portada {
-  height: 80vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 5px; }
-  .portada h1 {
-    font-size: 80px;
-    font-variant: small-caps;
-    font-weight: bold;
-    color: whitesmoke; }
-  .portada .portada1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px; }
-  .portada p {
-    color: whitesmoke;
-    font-size: 23px;
-    font-style: italic; }
-  .portada a {
-    text-decoration: none; }
+.portada-1_1 {
+  height: 85vh; }
 
-.section1 .section1_1, .section1 .section1_2 {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.section1 h2 {
-  font-size: 60px;
-  font-variant: small-caps;
-  font-weight: bold;
-  color: whitesmoke; }
-
-.section1 p {
-  color: whitesmoke;
-  font-size: 20px;
-  font-style: italic;
-  text-align: center; }
-
-.section1 a {
-  text-decoration: none; }
-
-.section2 .section2_1 {
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.section2 h3 {
+.portada-1_2 h1, .portada-1_2 h2 {
   font-size: 80px;
   font-variant: small-caps;
   font-weight: bold;
   color: whitesmoke; }
 
-.section2 p {
+.portada-1_2 p {
+  padding-bottom: 150px;
   color: whitesmoke;
   font-size: 23px;
   font-style: italic; }
-
-.section2 a {
-  text-decoration: none; }
 
 .footer1 {
   height: 100vh; }
@@ -122,18 +68,6 @@ body {
     flex-wrap: wrap; }
 
 @media screen and (max-width: 768px) {
-  h1 {
-    font-size: 40px; }
-  .portada2 p {
-    font-size: 1rem; }
-  h2 {
-    font-size: 30px; }
-  .section1 p {
-    font-size: 1rem; }
-  h3 {
-    font-size: 30px; }
-  .section2 p {
-    font-size: 1rem; }
   .redes1 h4 {
     font-size: 1rem; }
   .redes1 img {
@@ -158,7 +92,7 @@ body {
   background-size: cover;
   margin-bottom: 5px;
   padding: 80px 50px; }
-  .origen h1 {
+  .origen h1, .origen .portada-1_2 h2, .portada-1_2 .origen h2 {
     font-size: 80px;
     font-variant: small-caps;
     font-weight: bold;
@@ -170,11 +104,14 @@ body {
     align-items: center;
     margin-top: 150px; }
   .origen p {
-    color: whitesmoke;
     font-size: 20px;
+    font-variant: none;
+    font-weight: none;
     font-style: italic;
+    color: whitesmoke;
     text-align: right;
-    padding-right: 100px; }
+    padding-right: 100px;
+    padding-top: 30px; }
   .origen a {
     text-decoration: none; }
 
@@ -207,85 +144,88 @@ body {
   .destilacion a {
     text-decoration: none; }
 
-.sirpipo2 {
-  height: 100vh;
-  padding: 0px 50px; }
-  .sirpipo2 .sirpipo2_1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left; }
-  .sirpipo2 h3 {
-    font-size: 40px;
+.productos {
+  height: 100vh; }
+  .productos h2 {
+    text-align: center;
+    color: #8A7D5C;
+    font-size: 50px;
     font-variant: small-caps;
     font-weight: bold;
-    font-style: none;
-    color: #8A7D5C;
-    text-align: left; }
-  .sirpipo2 p {
-    font-size: 18px;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify;
-    color: #8A7D5C;
-    padding-top: 10px; }
-  .sirpipo2 .sirpipo2_2, .sirpipo2 .sirpipo5 .sirpipo5_1 img, .sirpipo5 .sirpipo5_1 .sirpipo2 img, .sirpipo2 .sirpipo6 .sirpipo6_2 img, .sirpipo6 .sirpipo6_2 .sirpipo2 img {
-    display: flex;
-    justify-content: center; }
-  .sirpipo2 .sirpipo2_2 img, .sirpipo2 .sirpipo5 .sirpipo5_1 img img, .sirpipo5 .sirpipo5_1 .sirpipo2 img img, .sirpipo2 .sirpipo6 .sirpipo6_2 img img, .sirpipo6 .sirpipo6_2 .sirpipo2 img img {
-    padding-top: 10px; }
+    font-style: none; }
 
-.sirpipo5 {
-  height: 100vh;
-  padding: 0px 50px; }
-  .sirpipo5 .sirpipo5_2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left; }
-  .sirpipo5 h3 {
-    font-size: 40px;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-style: none;
-    color: #8A7D5C;
-    text-align: right; }
-  .sirpipo5 p {
-    font-size: 18px;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify;
-    color: #8A7D5C;
-    padding-top: 10px; }
-  .sirpipo5 .sirpipo5_1 {
-    display: flex;
-    justify-content: center; }
+.gin {
+  display: flex;
+  flex-direction: none;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; }
+  .gin .gin-1 {
+    border: none; }
+    .gin .gin-1 h3 {
+      font-size: 25px;
+      font-variant: none;
+      font-weight: bold;
+      font-style: none;
+      text-align: center;
+      color: #841617; }
+    .gin .gin-1 p {
+      font-size: 15px;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+  .gin .gin-2 {
+    border: none; }
+    .gin .gin-2 h3 {
+      font-size: 25px;
+      font-variant: none;
+      font-weight: bold;
+      font-style: none;
+      text-align: center;
+      color: #841617; }
+    .gin .gin-2 p {
+      font-size: 15px;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+  .gin .gin-3 {
+    border: none; }
+    .gin .gin-3 h3 {
+      font-size: 25px;
+      font-variant: none;
+      font-weight: bold;
+      font-style: none;
+      text-align: center;
+      color: #841617; }
+    .gin .gin-3 p {
+      font-size: 15px;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
 
-.sirpipo6 {
-  height: 100vh;
-  padding: 0px 50px; }
-  .sirpipo6 .sirpipo6_1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left; }
-  .sirpipo6 h3 {
-    font-size: 40px;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-style: none;
-    color: #8A7D5C;
-    text-align: left; }
-  .sirpipo6 p {
-    font-size: 18px;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify;
-    color: #8A7D5C;
-    padding-top: 10px; }
-  .sirpipo6 .sirpipo6_2 {
-    display: flex;
-    justify-content: center; }
+@media screen and (max-width: 768px) {
+  .origen {
+    padding: 10px 10px; }
+    .origen .origen1 {
+      display: flex;
+      flex-wrap: wrap; }
+    .origen h1, .origen .portada-1_2 h2, .portada-1_2 .origen h2 {
+      font-size: 40px;
+      text-align: center; }
+    .origen p {
+      font-size: 1rem;
+      text-align: center; }
+  .destilacion {
+    padding: 10px 10px; }
+    .destilacion .destilacion1 {
+      display: flex;
+      flex-wrap: wrap; }
+    .destilacion h2 {
+      font-size: 40px;
+      text-align: center; }
+    .destilacion p {
+      font-size: 1rem;
+      text-align: center; } }
