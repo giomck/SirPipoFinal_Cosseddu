@@ -281,7 +281,7 @@ body {
     font-weight: none;
     font-style: italic;
     text-align: justify; }
-  .botanicos-2 h5 {
+  .botanicos-2 h5, .botanicos-2 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .botanicos-2 p, .botanicos-2 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .botanicos-2 li, .botanicos-2 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .botanicos-2 p, .botanicos-2 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .botanicos-2 li, .botanicos-2 .cocktails-1 .negroni p, .cocktails-1 .negroni .botanicos-2 p, .botanicos-2 .cocktails-1 .negroni li, .cocktails-1 .negroni .botanicos-2 li {
     font-size: 20px;
     font-variant: none;
     font-weight: none;
@@ -314,7 +314,7 @@ body {
     font-weight: none;
     font-style: italic;
     text-align: justify; }
-  .botanicos-3 h5 {
+  .botanicos-3 h5, .botanicos-3 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .botanicos-3 p, .botanicos-3 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .botanicos-3 li, .botanicos-3 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .botanicos-3 p, .botanicos-3 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .botanicos-3 li, .botanicos-3 .cocktails-1 .negroni p, .cocktails-1 .negroni .botanicos-3 p, .botanicos-3 .cocktails-1 .negroni li, .cocktails-1 .negroni .botanicos-3 li {
     font-size: 20px;
     font-variant: none;
     font-weight: none;
@@ -404,3 +404,46 @@ body {
   font-style: italic;
   color: #8A7D5C;
   text-align: justify; }
+
+.cocktails {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5px; }
+  .cocktails h1, .cocktails .portada-1_2 h2, .portada-1_2 .cocktails h2 {
+    font-size: 80px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 200px; }
+
+.cocktails-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .cocktails-1 .martini-dry {
+    margin: 20px 20px;
+    border-color: #841617; }
+    .cocktails-1 .martini-dry h5, .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry li {
+      color: whitesmoke;
+      text-align: center; }
+    .cocktails-1 .martini-dry li {
+      list-style: none; }
+  .cocktails-1 .gin-tonic {
+    margin: 20px 20px;
+    border-color: #841617; }
+    .cocktails-1 .gin-tonic h5, .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic li {
+      color: whitesmoke;
+      text-align: center; }
+    .cocktails-1 .gin-tonic li {
+      list-style: none; }
+  .cocktails-1 .negroni {
+    margin: 20px 20px;
+    border-color: #841617; }
+    .cocktails-1 .negroni h5, .cocktails-1 .negroni p, .cocktails-1 .negroni li {
+      color: whitesmoke;
+      text-align: center; }
+    .cocktails-1 .negroni li {
+      list-style: none; }

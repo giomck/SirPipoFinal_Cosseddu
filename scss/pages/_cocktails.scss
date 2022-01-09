@@ -1,0 +1,62 @@
+.cocktails{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+    h1{
+        font-size: 80px;
+        font-variant: small-caps;
+        font-weight: bold;
+        color: map-get($map: $colores, $key: blanco);
+        text-align: center;
+        padding-top: 200px
+    }
+}
+.cocktails-1{
+    @include flex(row,space-around,center);
+    .martini-dry{
+        margin: 20px 20px;
+        border-color: #841617;
+        h5{
+            color: whitesmoke;
+            text-align: center;
+        }
+        p{
+            @extend h5;
+        }
+        li{
+            @extend h5;
+            list-style: none;
+        }
+    }
+    .gin-tonic{
+        margin: 20px 20px;
+        border-color: #841617;
+        h5{
+            color: whitesmoke;
+            text-align: center;
+        }
+        p{
+            @extend h5;
+        }
+        li{
+            @extend h5;
+            list-style: none;
+        }
+    }
+    .negroni{
+        margin: 20px 20px;
+        border-color: #841617;
+        h5{
+            color: whitesmoke;
+            text-align: center;
+        }
+        p{
+            @extend h5;
+        }
+        li{
+            @extend h5;
+            list-style: none;
+        }
+    }
+}
