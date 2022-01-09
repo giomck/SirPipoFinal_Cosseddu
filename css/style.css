@@ -254,8 +254,6 @@ body {
     font-style: italic;
     color: whitesmoke;
     text-align: center; }
-  .botanicos a {
-    text-decoration: none; }
 
 .botanicos-2 {
   height: 100vh;
@@ -322,3 +320,87 @@ body {
     font-weight: none;
     font-style: italic;
     text-align: center; }
+
+.sustentabilidad {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5px;
+  padding: 200px 80px; }
+  .sustentabilidad h1, .sustentabilidad .portada-1_2 h2, .portada-1_2 .sustentabilidad h2 {
+    font-size: 80px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center; }
+  .sustentabilidad .sustentabilidad-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .sustentabilidad p {
+    font-size: 20px;
+    font-variant: none;
+    font-weight: none;
+    font-style: italic;
+    color: whitesmoke;
+    text-align: center; }
+
+.cuidado .cuidado-1 img {
+  width: 400px;
+  height: auto; }
+
+.cuidado .cuidado-2 h2 {
+  font-size: 3rem;
+  font-variant: small-caps;
+  font-weight: none;
+  font-style: none;
+  color: #8A7D5C;
+  padding-top: 100px; }
+
+.cuidado .cuidado-2 p {
+  font-size: 20px;
+  font-variant: none;
+  font-weight: none;
+  font-style: italic;
+  color: #8A7D5C;
+  text-align: justify; }
+
+.reciclaje .reciclaje-1 h2 {
+  font-size: 3rem;
+  font-variant: small-caps;
+  font-weight: none;
+  font-style: none;
+  color: #8A7D5C;
+  padding-top: 80px; }
+
+.reciclaje .reciclaje-1 {
+  padding-right: 100px; }
+
+.reciclaje .reciclaje-1 p {
+  font-size: 20px;
+  font-variant: none;
+  font-weight: none;
+  font-style: italic;
+  color: #8A7D5C;
+  text-align: justify; }
+
+.compostaje .compostaje-1 img {
+  width: 450px;
+  height: auto; }
+
+.compostaje .compostaje-2 h2 {
+  font-size: 3rem;
+  font-variant: small-caps;
+  font-weight: none;
+  font-style: none;
+  color: #8A7D5C;
+  padding-top: 80px; }
+
+.compostaje .compostaje-2 p {
+  font-size: 20px;
+  font-variant: none;
+  font-weight: none;
+  font-style: italic;
+  color: #8A7D5C;
+  text-align: justify; }

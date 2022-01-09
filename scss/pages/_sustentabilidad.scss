@@ -1,0 +1,70 @@
+
+.sustentabilidad{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+    padding: 200px 80px;
+    h1{
+        font-size: 80px;
+        font-variant: small-caps;
+        font-weight: bold;
+        color: map-get($map: $colores, $key: blanco);
+        text-align: center
+    }
+    .sustentabilidad-1{
+        @include flex(column, center , center);
+    }
+    p{
+        @include font(20px, none, none, italic);
+        color: whitesmoke;
+        text-align: center;
+    } 
+}
+.cuidado{
+    .cuidado-1 img{
+        width: 400px;
+        height: auto;
+    }
+    .cuidado-2 h2{
+        @include font(3rem,small-caps,none,none);
+        color: map-get($map: $colores, $key: dorado);
+        padding-top: 100px;
+    }
+    .cuidado-2 p{
+        @include font(20px,none,none,italic);
+        color: map-get($map: $colores, $key: dorado);
+        text-align: justify;
+    }
+}
+.reciclaje{
+    .reciclaje-1 h2{
+        @include font(3rem,small-caps,none,none);
+        color: map-get($map: $colores, $key: dorado);
+        padding-top: 80px;
+    }
+    .reciclaje-1{
+        padding-right: 100px;
+    }
+    .reciclaje-1 p{
+        @include font(20px,none,none,italic);
+        color: map-get($map: $colores, $key: dorado);
+        text-align: justify;
+    }
+}
+.compostaje{
+    .compostaje-1 img{
+        width: 450px;
+        height: auto;
+    }
+    .compostaje-2 h2{
+        @include font(3rem,small-caps,none,none);
+        color: map-get($map: $colores, $key: dorado);
+        padding-top: 80px;
+    }
+    .compostaje-2 p{
+        @include font(20px,none,none,italic);
+        color: map-get($map: $colores, $key: dorado);
+        text-align: justify;
+    }
+}

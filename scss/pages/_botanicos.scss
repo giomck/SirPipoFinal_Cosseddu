@@ -18,10 +18,7 @@
         @include font(20px, none, none, italic);
         color: whitesmoke;
         text-align: center;
-    }
-    a{
-        text-decoration: none;
-    }   
+    } 
 }
 .botanicos-2{
     height: 100vh;
@@ -44,6 +41,7 @@
         @include font (20px,none,none,italic);
         text-align: center;
     }
+
 }
 .botanicos-3{
     height: 100vh;
