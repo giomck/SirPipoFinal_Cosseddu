@@ -70,8 +70,9 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
     height: 100vh;
     h2{
         text-align: center;
-        color: map-get($map: $colores, $key: dorado);
+        color: map-get($map: $colores, $key: blanco);
         @include font(50px, small-caps, bold, none);
+        padding-bottom: 20px;
     }
 }
 .gin{
@@ -79,38 +80,50 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
     gap: 25px;
     .gin-1{
         border: none;
-        h3{
-           @include font(25px, none, bold, none); 
-           text-align: center;
-           color: map-get($map: $colores, $key: rojo)
-        }
         p{
-            @include font(15px, none, none, italic);
+            @include font(1rem, none, none, italic);
             text-align: justify;
+        }
+        .gin-1_1{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 350px;
+                height: auto;
+                
+            }
         }
     }
     .gin-2{
         border: none;
-        h3{
-           @include font(25px, none, bold, none); 
-           text-align: center;
-           color: map-get($map: $colores, $key: rojo)
-        }
         p{
-            @include font(15px, none, none, italic);
+            @include font(1rem, none, none, italic);
             text-align: justify;
+        }
+        .gin-2_2{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 350px;
+                height: auto;
+                
+            }
         }
     }
     .gin-3{
         border: none;
-        h3{
-           @include font(25px, none, bold, none); 
-           text-align: center;
-           color: map-get($map: $colores, $key: rojo)
-        }
         p{
-            @include font(15px, none, none, italic);
+            @include font(1rem, none, none, italic);
             text-align: justify;
+        }
+        .gin-3_3{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 350px;
+                height: auto;
+                
+            }
         }
     }
 }
@@ -145,38 +158,4 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
         text-align: center;
       }
     }
-//     .sirpipo2{
-//         padding: 10px 10px;
-//       .sirpipo2_1{
-//         display: flex;
-//         flex-wrap: wrap;
-//        }  
-//        h1{
-//         font-size: 40px;
-//         text-align: center;
-//        }
-//        p{
-//         font-size: 1rem;
-//         text-align: center;
-//        }
-//        img{
-//         width: 300px;
-//         height: auto;
-//        }
-//     } 
-//     .sirpipo5{
-//         padding: 10px 10px;
-//       .sirpipo5_1{
-//         display: flex;
-//         flex-wrap: wrap;
-//        }  
-//       h1{
-//         font-size: 40px;
-//         text-align: center;
-//       }
-//   p{
-//       font-size: 1rem;
-//       text-align: center;
-//   }
-// }  
-}
+}    

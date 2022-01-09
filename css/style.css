@@ -148,11 +148,12 @@ body {
   height: 100vh; }
   .productos h2 {
     text-align: center;
-    color: #8A7D5C;
+    color: whitesmoke;
     font-size: 50px;
     font-variant: small-caps;
     font-weight: bold;
-    font-style: none; }
+    font-style: none;
+    padding-bottom: 20px; }
 
 .gin {
   display: flex;
@@ -162,49 +163,46 @@ body {
   gap: 25px; }
   .gin .gin-1 {
     border: none; }
-    .gin .gin-1 h3 {
-      font-size: 25px;
-      font-variant: none;
-      font-weight: bold;
-      font-style: none;
-      text-align: center;
-      color: #841617; }
     .gin .gin-1 p {
-      font-size: 15px;
+      font-size: 1rem;
       font-variant: none;
       font-weight: none;
       font-style: italic;
       text-align: justify; }
+    .gin .gin-1 .gin-1_1 {
+      display: flex;
+      justify-content: center; }
+      .gin .gin-1 .gin-1_1 img {
+        width: 350px;
+        height: auto; }
   .gin .gin-2 {
     border: none; }
-    .gin .gin-2 h3 {
-      font-size: 25px;
-      font-variant: none;
-      font-weight: bold;
-      font-style: none;
-      text-align: center;
-      color: #841617; }
     .gin .gin-2 p {
-      font-size: 15px;
+      font-size: 1rem;
       font-variant: none;
       font-weight: none;
       font-style: italic;
       text-align: justify; }
+    .gin .gin-2 .gin-2_2 {
+      display: flex;
+      justify-content: center; }
+      .gin .gin-2 .gin-2_2 img {
+        width: 350px;
+        height: auto; }
   .gin .gin-3 {
     border: none; }
-    .gin .gin-3 h3 {
-      font-size: 25px;
-      font-variant: none;
-      font-weight: bold;
-      font-style: none;
-      text-align: center;
-      color: #841617; }
     .gin .gin-3 p {
-      font-size: 15px;
+      font-size: 1rem;
       font-variant: none;
       font-weight: none;
       font-style: italic;
       text-align: justify; }
+    .gin .gin-3 .gin-3_3 {
+      display: flex;
+      justify-content: center; }
+      .gin .gin-3 .gin-3_3 img {
+        width: 350px;
+        height: auto; }
 
 @media screen and (max-width: 768px) {
   .origen {
