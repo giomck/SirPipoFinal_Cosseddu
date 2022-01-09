@@ -3,25 +3,67 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5px;
-    padding: 80px 50px;
+    padding: 200px 80px;
     h1{
         font-size: 80px;
         font-variant: small-caps;
         font-weight: bold;
         color: map-get($map: $colores, $key: blanco);
+        text-align: center
     }
-    .botanicos1{
-        @include flex(row-reverse, center , center);
-        margin-top: 150px;
+    .botanicos-1{
+        @include flex(column, center , center);
     }
     p{
         @include font(20px, none, none, italic);
         color: whitesmoke;
-        text-align: right;
-        padding-right: 100px;
-        padding-top: 30px;
+        text-align: center;
     }
     a{
         text-decoration: none;
     }   
+}
+.botanicos-2{
+    height: 100vh;
+    @include flex(row,center,center);
+    flex-wrap: wrap;
+    gap: 100px;
+    .botanicos-2_1_1 p{
+        @include font(1rem, none, none, italic);
+        text-align: justify;
+    }
+    .botanicos-2_2_2 p{
+        @include font(1rem, none, none, italic);
+        text-align: justify;
+    }
+    .botanicos-2_3_3 p{
+        @include font(1rem, none, none, italic);
+        text-align: justify;
+    }
+    h5{
+        @include font (20px,none,none,italic);
+        text-align: center;
+    }
+}
+.botanicos-3{
+    height: 100vh;
+    @include flex(row,center,center);
+    flex-wrap: wrap;
+    gap: 100px;
+    .botanicos-3_1_1 p{
+        @include font(1rem, none, none, italic);
+        text-align: justify;
+    }
+    .botanicos-3_2_2 p{
+        @include font(1rem, none, none, italic);
+        text-align: justify;
+    }
+    .botanicos-3_3_3 p{
+        @include font(1rem, none, none, italic);
+        text-align: justify;
+    }   
+    h5{
+        @include font (20px,none,none,italic);
+        text-align: center;
+    }
 }
