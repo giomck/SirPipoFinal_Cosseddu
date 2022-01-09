@@ -447,3 +447,16 @@ body {
       text-align: center; }
     .cocktails-1 .negroni li {
       list-style: none; }
+
+.contacto-1 {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5px; }
+  .contacto-1 h1, .contacto-1 .portada-1_2 h2, .portada-1_2 .contacto-1 h2 {
+    font-size: 80px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 200px; }

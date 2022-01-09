@@ -1,0 +1,14 @@
+.contacto-1{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+    h1{
+        font-size: 80px;
+        font-variant: small-caps;
+        font-weight: bold;
+        color: map-get($map: $colores, $key: blanco);
+        text-align: center;
+        padding-top: 200px
+    }
+}
