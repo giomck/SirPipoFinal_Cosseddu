@@ -25,15 +25,37 @@
     @include flex(row,center,center);
     flex-wrap: wrap;
     gap: 100px;
-    .botanicos-2_1_1 p{
+    .botanicos-2_1_1{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .botanicos-2_1_2 p{
         @include font(1rem, none, none, italic);
         text-align: justify;
+    }
+    .botanicos-2_2_1{
+        @extend .botanicos-2_1_1;
+        img{
+            width: 200px;
+            height: auto;
+        }
     }
     .botanicos-2_2_2 p{
         @include font(1rem, none, none, italic);
         text-align: justify;
     }
-    .botanicos-2_3_3 p{
+    .botanicos-2_3_1{
+        @extend .botanicos-2_1_1;
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .botanicos-2_3_2 p{
         @include font(1rem, none, none, italic);
         text-align: justify;
     }
@@ -41,22 +63,43 @@
         @include font (20px,none,none,italic);
         text-align: center;
     }
-
 }
 .botanicos-3{
     height: 100vh;
     @include flex(row,center,center);
     flex-wrap: wrap;
     gap: 100px;
-    .botanicos-3_1_1 p{
+    .botanicos-3_1_1{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .botanicos-3_1_2 p{
         @include font(1rem, none, none, italic);
         text-align: justify;
+    }
+    .botanicos-3_2_1{
+        @extend .botanicos-3_1_1;
+        img{
+            width: 200px;
+            height: auto;
+        }
     }
     .botanicos-3_2_2 p{
         @include font(1rem, none, none, italic);
         text-align: justify;
     }
-    .botanicos-3_3_3 p{
+    .botanicos-3_3_1{
+        @extend .botanicos-3_1_1;
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .botanicos-3_3_2 p{
         @include font(1rem, none, none, italic);
         text-align: justify;
     }   

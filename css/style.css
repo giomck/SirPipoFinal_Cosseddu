@@ -261,19 +261,31 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px; }
-  .botanicos-2 .botanicos-2_1_1 p {
+  .botanicos-2 .botanicos-2_1_1, .botanicos-2 .botanicos-2_2_1, .botanicos-2 .botanicos-2_3_1 {
+    display: flex;
+    justify-content: center; }
+    .botanicos-2 .botanicos-2_1_1 img, .botanicos-2 .botanicos-2_2_1 img, .botanicos-2 .botanicos-2_3_1 img {
+      width: 200px;
+      height: auto; }
+  .botanicos-2 .botanicos-2_1_2 p {
     font-size: 1rem;
     font-variant: none;
     font-weight: none;
     font-style: italic;
     text-align: justify; }
+  .botanicos-2 .botanicos-2_2_1 img {
+    width: 200px;
+    height: auto; }
   .botanicos-2 .botanicos-2_2_2 p {
     font-size: 1rem;
     font-variant: none;
     font-weight: none;
     font-style: italic;
     text-align: justify; }
-  .botanicos-2 .botanicos-2_3_3 p {
+  .botanicos-2 .botanicos-2_3_1 img {
+    width: 200px;
+    height: auto; }
+  .botanicos-2 .botanicos-2_3_2 p {
     font-size: 1rem;
     font-variant: none;
     font-weight: none;
@@ -294,19 +306,31 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px; }
-  .botanicos-3 .botanicos-3_1_1 p {
+  .botanicos-3 .botanicos-3_1_1, .botanicos-3 .botanicos-3_2_1, .botanicos-3 .botanicos-3_3_1 {
+    display: flex;
+    justify-content: center; }
+    .botanicos-3 .botanicos-3_1_1 img, .botanicos-3 .botanicos-3_2_1 img, .botanicos-3 .botanicos-3_3_1 img {
+      width: 200px;
+      height: auto; }
+  .botanicos-3 .botanicos-3_1_2 p {
     font-size: 1rem;
     font-variant: none;
     font-weight: none;
     font-style: italic;
     text-align: justify; }
+  .botanicos-3 .botanicos-3_2_1 img {
+    width: 200px;
+    height: auto; }
   .botanicos-3 .botanicos-3_2_2 p {
     font-size: 1rem;
     font-variant: none;
     font-weight: none;
     font-style: italic;
     text-align: justify; }
-  .botanicos-3 .botanicos-3_3_3 p {
+  .botanicos-3 .botanicos-3_3_1 img {
+    width: 200px;
+    height: auto; }
+  .botanicos-3 .botanicos-3_3_2 p {
     font-size: 1rem;
     font-variant: none;
     font-weight: none;
