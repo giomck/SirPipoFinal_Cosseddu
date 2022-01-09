@@ -12,3 +12,34 @@
         padding-top: 200px
     }
 }
+.contacto-2{
+    text-align: center;
+    padding: 50px 0px;
+    color: map-get($map: $colores, $key: rojo);
+}
+.contacto-3{
+    width: 90%;
+    padding-left: 10%;
+    padding-bottom: 50px;
+}
+.footer3{
+    height: 50vh;
+}
+.redes3{
+    display: flex;
+    justify-content: center;
+    h4{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        font-size: 20px;
+        font-variant: small-caps;
+    }
+}
+    .redes4_1{
+        display: flex;
+        justify-content: center;
+            a{
+             padding: 40px;
+            }
+}
