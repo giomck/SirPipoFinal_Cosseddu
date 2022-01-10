@@ -35,7 +35,9 @@ body {
     justify-content: center;
     padding-top: 20px;
     font-size: 20px;
-    font-variant: small-caps; }
+    font-variant: small-caps;
+    list-style: none;
+    text-decoration: none; }
   .redes-1 img {
     width: 100px;
     height: auto;
