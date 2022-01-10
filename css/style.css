@@ -6,59 +6,55 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .logo {
-  padding-right: 100px; }
-  .logo .logo img {
-    width: 60px;
-    height: auto; }
+  padding-right: 80px;
+  padding-top: 15px; }
 
-.portada-1_1 {
+.portada-1 .portada-1_1 {
   height: 85vh; }
 
-.portada-1_2 h1, .portada-1_2 h2 {
+.portada-1 .portada-1_2 h1, .portada-1 .portada-1_2 h2 {
   font-size: 80px;
   font-variant: small-caps;
   font-weight: bold;
   color: whitesmoke; }
 
-.portada-1_2 p {
-  padding-bottom: 150px;
+.portada-1 .portada-1_2 p {
+  padding-bottom: 0px;
   color: whitesmoke;
   font-size: 23px;
   font-style: italic; }
 
-.footer1 {
+.footer-1 {
   height: 100vh; }
 
-.redes1 {
+.redes-1 {
   display: flex;
   justify-content: center; }
-  .redes1 h4 {
+  .redes-1 h4 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     font-size: 20px;
     font-variant: small-caps; }
-  .redes1 img {
+  .redes-1 img {
     width: 100px;
     height: auto;
     padding-top: 100px; }
 
-.redes2_1 {
+.redes-2_1 {
   display: flex;
-  justify-content: center; }
-  .redes2_1 a {
-    padding: 20px; }
+  justify-content: center;
+  padding: 40px 0px; }
+  .redes-2_1 a {
+    padding-inline-end: 40px; }
 
-.footer2_1 {
-  padding-top: 80px; }
-
-.footer2_1-1 {
+.footer-2_1_1 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   border-top: solid 1px #841617;
   border-bottom: solid 1px #841617; }
-  .footer2_1-1 a {
+  .footer-2_1_1 a {
     text-decoration: none;
     font-size: 30px;
     font-variant: small-caps;
@@ -68,20 +64,34 @@ body {
     flex-wrap: wrap; }
 
 @media screen and (max-width: 768px) {
-  .redes1 h4 {
+  .portada-1 .portada-1_1 {
+    height: auto; }
+  .portada-1 .portada-1_2 h1, .portada-1 .portada-1_2 h2 {
+    font-size: 30px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: whitesmoke; }
+  .portada-1 .portada-1_2 p {
+    padding-bottom: 0px;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-style: italic; }
+  .footer-1 {
+    height: auto; }
+  .redes-1 h4 {
     font-size: 1rem; }
-  .redes1 img {
+  .redes-1 img {
     width: 60px;
     height: auto;
     padding-top: 40px; }
-  .redes2_1 img {
+  .redes-2_1 img {
     width: 20px;
     height: auto; }
-  .footer2_1 {
-    padding-top: 40px; }
-  .footer2_1-1 {
+  .footer-2_1 {
+    padding-top: 20px; }
+  .footer-2_1_1 {
     flex-direction: column; }
-  .footer2_1-1 a {
+  .footer-2_1_1 a {
     font-size: 1rem;
     margin: 0px;
     text-align: center; } }
@@ -92,7 +102,7 @@ body {
   background-size: cover;
   margin-bottom: 5px;
   padding: 80px 50px; }
-  .origen h1, .origen .portada-1_2 h2, .portada-1_2 .origen h2 {
+  .origen h1, .origen .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .origen h2 {
     font-size: 80px;
     font-variant: small-caps;
     font-weight: bold;
@@ -210,7 +220,7 @@ body {
     .origen .origen1 {
       display: flex;
       flex-wrap: wrap; }
-    .origen h1, .origen .portada-1_2 h2, .portada-1_2 .origen h2 {
+    .origen h1, .origen .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .origen h2 {
       font-size: 40px;
       text-align: center; }
     .origen p {
@@ -234,7 +244,7 @@ body {
   background-size: cover;
   margin-bottom: 5px;
   padding: 200px 80px; }
-  .botanicos h1, .botanicos .portada-1_2 h2, .portada-1_2 .botanicos h2 {
+  .botanicos h1, .botanicos .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .botanicos h2 {
     font-size: 80px;
     font-variant: small-caps;
     font-weight: bold;
@@ -349,7 +359,7 @@ body {
   background-size: cover;
   margin-bottom: 5px;
   padding: 200px 80px; }
-  .sustentabilidad h1, .sustentabilidad .portada-1_2 h2, .portada-1_2 .sustentabilidad h2 {
+  .sustentabilidad h1, .sustentabilidad .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .sustentabilidad h2 {
     font-size: 80px;
     font-variant: small-caps;
     font-weight: bold;
@@ -439,7 +449,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px; }
-  .cocktails h1, .cocktails .portada-1_2 h2, .portada-1_2 .cocktails h2 {
+  .cocktails h1, .cocktails .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .cocktails h2 {
     font-size: 80px;
     font-variant: small-caps;
     font-weight: bold;
@@ -504,7 +514,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px; }
-  .contacto-1 h1, .contacto-1 .portada-1_2 h2, .portada-1_2 .contacto-1 h2 {
+  .contacto-1 h1, .contacto-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .contacto-1 h2 {
     font-size: 80px;
     font-variant: small-caps;
     font-weight: bold;
@@ -522,21 +532,21 @@ body {
   padding-left: 10%;
   padding-bottom: 50px; }
 
-.footer3 {
+.footer-3 {
   height: 50vh; }
 
-.redes3 {
+.redes-3 {
   display: flex;
   justify-content: center; }
-  .redes3 h4 {
+  .redes-3 h4 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     font-size: 20px;
     font-variant: small-caps; }
 
-.redes4_1 {
+.redes-4_1 {
   display: flex;
   justify-content: center; }
-  .redes4_1 a {
+  .redes-4_1 a {
     padding: 40px; }

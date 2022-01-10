@@ -8,36 +8,35 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
 }
 
 .logo{
-    padding-right: 100px;
-    .logo img{
-        width: 60px;
-        height: auto;
-    }
+    padding-right: 80px;
+    padding-top: 15px;
 }
-.portada-1_1{
-    height: 85vh;
+.portada-1{
+    .portada-1_1{
+        height: 85vh;
+    }
+    .portada-1_2{
+        h1{
+            font-size: 80px;
+            font-variant: small-caps;
+            font-weight: bold;
+            color: map-get($map: $colores, $key: blanco);
+        }
+        p{
+            padding-bottom: 0px;
+            color: map-get($map: $colores, $key: blanco);
+            font-size: 23px;
+            font-style: italic;
+        }
+        h2{
+            @extend h1;
+        }
+    } 
 }
-.portada-1_2{
-    h1{
-        font-size: 80px;
-        font-variant: small-caps;
-        font-weight: bold;
-        color: map-get($map: $colores, $key: blanco);
-    }
-    p{
-        padding-bottom: 150px;
-        color: map-get($map: $colores, $key: blanco);
-        font-size: 23px;
-        font-style: italic;
-    }
-    h2{
-        @extend h1;
-    }
-} 
-.footer1{
+.footer-1{
     height: 100vh;
 }
-.redes1{
+.redes-1{
     display: flex;
     justify-content: center;
     h4{
@@ -53,17 +52,15 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
         padding-top: 100px;
         }
 }
-.redes2_1{
+.redes-2_1{
     display: flex;
     justify-content: center;
+    padding: 40px 0px;
     a{
-        padding: 20px;
+        padding-inline-end: 40px;
     }
 }
-.footer2_1{
-    padding-top: 80px;
-}
-.footer2_1-1{
+.footer-2_1_1{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -79,26 +76,48 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 768px){
-    .redes1 h4{
+@media screen and (max-width: 768px){    
+    .portada-1{
+        .portada-1_1{
+            height: auto;
+        }
+        .portada-1_2{
+            h1{
+                font-size: 30px;
+                font-variant: small-caps;
+                font-weight: bold;
+                color: map-get($map: $colores, $key: blanco);
+            }
+            p{
+                padding-bottom: 0px;
+                color: map-get($map: $colores, $key: blanco);
+                font-size: 1rem;
+                font-style: italic;
+            }
+        }
+    }    
+    .footer-1{
+        height: auto;
+    }
+    .redes-1 h4{
         font-size: 1rem;   
     }
-    .redes1 img{
+    .redes-1 img{
         width: 60px;
         height: auto;
         padding-top: 40px;
     }
-    .redes2_1 img{
+    .redes-2_1 img{
         width: 20px;
         height: auto;
     }
-    .footer2_1{
-        padding-top: 40px;
+    .footer-2_1{
+        padding-top: 20px;
     }
-    .footer2_1-1{
+    .footer-2_1_1{
         flex-direction: column;
     }
-    .footer2_1-1 a{
+    .footer-2_1_1 a{
         font-size: 1rem;
         margin: 0px;
         text-align: center;
