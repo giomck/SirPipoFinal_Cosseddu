@@ -368,64 +368,71 @@ body {
     color: whitesmoke;
     text-align: center; }
 
-.cuidado .cuidado-1 img {
-  width: 400px;
-  height: auto; }
+.cuidado {
+  border: none; }
+  .cuidado .cuidado-1 img {
+    width: 400px;
+    height: auto; }
+  .cuidado .cuidado-2 h2 {
+    font-size: 3rem;
+    font-variant: small-caps;
+    font-weight: none;
+    font-style: none;
+    color: #8A7D5C;
+    padding-top: 100px; }
+  .cuidado .cuidado-2 p {
+    font-size: 20px;
+    font-variant: none;
+    font-weight: none;
+    font-style: italic;
+    color: #8A7D5C;
+    text-align: justify;
+    padding-right: 40px; }
 
-.cuidado .cuidado-2 h2 {
-  font-size: 3rem;
-  font-variant: small-caps;
-  font-weight: none;
-  font-style: none;
-  color: #8A7D5C;
-  padding-top: 100px; }
+.reciclaje {
+  border: none; }
+  .reciclaje .reciclaje-2 img {
+    width: 300px;
+    height: auto; }
+  .reciclaje .reciclaje-1 h2 {
+    font-size: 3rem;
+    font-variant: small-caps;
+    font-weight: none;
+    font-style: none;
+    color: #8A7D5C;
+    padding-top: 80px;
+    padding-left: 40px; }
+  .reciclaje .reciclaje-1 {
+    padding-right: 100px; }
+  .reciclaje .reciclaje-1 p {
+    font-size: 20px;
+    font-variant: none;
+    font-weight: none;
+    font-style: italic;
+    color: #8A7D5C;
+    text-align: justify;
+    padding-left: 40px; }
 
-.cuidado .cuidado-2 p {
-  font-size: 20px;
-  font-variant: none;
-  font-weight: none;
-  font-style: italic;
-  color: #8A7D5C;
-  text-align: justify; }
-
-.reciclaje .reciclaje-1 h2 {
-  font-size: 3rem;
-  font-variant: small-caps;
-  font-weight: none;
-  font-style: none;
-  color: #8A7D5C;
-  padding-top: 80px; }
-
-.reciclaje .reciclaje-1 {
-  padding-right: 100px; }
-
-.reciclaje .reciclaje-1 p {
-  font-size: 20px;
-  font-variant: none;
-  font-weight: none;
-  font-style: italic;
-  color: #8A7D5C;
-  text-align: justify; }
-
-.compostaje .compostaje-1 img {
-  width: 450px;
-  height: auto; }
-
-.compostaje .compostaje-2 h2 {
-  font-size: 3rem;
-  font-variant: small-caps;
-  font-weight: none;
-  font-style: none;
-  color: #8A7D5C;
-  padding-top: 80px; }
-
-.compostaje .compostaje-2 p {
-  font-size: 20px;
-  font-variant: none;
-  font-weight: none;
-  font-style: italic;
-  color: #8A7D5C;
-  text-align: justify; }
+.compostaje {
+  border: none; }
+  .compostaje .compostaje-1 img {
+    width: 450px;
+    height: auto; }
+  .compostaje .compostaje-2 h2 {
+    font-size: 3rem;
+    font-variant: small-caps;
+    font-weight: none;
+    font-style: none;
+    color: #8A7D5C;
+    padding-top: 80px; }
+  .compostaje .compostaje-2 p {
+    font-size: 20px;
+    font-variant: none;
+    font-weight: none;
+    font-style: italic;
+    color: #8A7D5C;
+    text-align: justify;
+    padding-right: 40px; }
 
 .cocktails {
   height: 80vh;
@@ -444,31 +451,53 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  height: 100vh; }
   .cocktails-1 .martini-dry {
     margin: 20px 20px;
-    border-color: #841617; }
+    border: none;
+    box-shadow: 0px 0px 5px 1px gray; }
     .cocktails-1 .martini-dry h5, .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry li {
-      color: whitesmoke;
+      color: #841617;
       text-align: center; }
     .cocktails-1 .martini-dry li {
       list-style: none; }
+    .cocktails-1 .martini-dry .martini-dry-1 {
+      display: flex;
+      justify-content: center; }
+      .cocktails-1 .martini-dry .martini-dry-1 img {
+        width: 250px;
+        height: auto; }
   .cocktails-1 .gin-tonic {
     margin: 20px 20px;
-    border-color: #841617; }
+    border: none;
+    box-shadow: 0px 0px 5px 1px gray; }
     .cocktails-1 .gin-tonic h5, .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic li {
-      color: whitesmoke;
+      color: #841617;
       text-align: center; }
     .cocktails-1 .gin-tonic li {
       list-style: none; }
+    .cocktails-1 .gin-tonic .gin-tonic-1 {
+      display: flex;
+      justify-content: center; }
+      .cocktails-1 .gin-tonic .gin-tonic-1 img {
+        width: 250px;
+        height: auto; }
   .cocktails-1 .negroni {
     margin: 20px 20px;
-    border-color: #841617; }
+    border: none;
+    box-shadow: 0px 0px 5px 1px gray; }
     .cocktails-1 .negroni h5, .cocktails-1 .negroni p, .cocktails-1 .negroni li {
-      color: whitesmoke;
+      color: #841617;
       text-align: center; }
     .cocktails-1 .negroni li {
       list-style: none; }
+    .cocktails-1 .negroni .negroni-1 {
+      display: flex;
+      justify-content: center; }
+      .cocktails-1 .negroni .negroni-1 img {
+        width: 250px;
+        height: auto; }
 
 .contacto-1 {
   height: 50vh;

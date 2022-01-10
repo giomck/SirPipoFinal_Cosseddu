@@ -22,6 +22,7 @@
     } 
 }
 .cuidado{
+    border: none;
     .cuidado-1 img{
         width: 400px;
         height: auto;
@@ -35,13 +36,20 @@
         @include font(20px,none,none,italic);
         color: map-get($map: $colores, $key: dorado);
         text-align: justify;
+        padding-right: 40px;
     }
 }
 .reciclaje{
+    border: none;
+    .reciclaje-2 img{
+        width: 300px;
+        height: auto;
+    }
     .reciclaje-1 h2{
         @include font(3rem,small-caps,none,none);
         color: map-get($map: $colores, $key: dorado);
         padding-top: 80px;
+        padding-left: 40px;
     }
     .reciclaje-1{
         padding-right: 100px;
@@ -50,9 +58,11 @@
         @include font(20px,none,none,italic);
         color: map-get($map: $colores, $key: dorado);
         text-align: justify;
+        padding-left: 40px;
     }
 }
 .compostaje{
+    border: none;
     .compostaje-1 img{
         width: 450px;
         height: auto;
@@ -66,5 +76,6 @@
         @include font(20px,none,none,italic);
         color: map-get($map: $colores, $key: dorado);
         text-align: justify;
+        padding-right: 40px;
     }
 }
