@@ -13,7 +13,7 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
     font-style: $style;
 }
 .origen{
-    height: 80vh;
+    height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5px;
@@ -70,16 +70,16 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
     height: 100vh;
     h2{
         text-align: center;
-        color: map-get($map: $colores, $key: blanco);
+        color: map-get($map: $colores, $key: rojo);
         @include font(50px, small-caps, bold, none);
-        padding-bottom: 20px;
+        padding: 20px 0px;
     }
-}
-.gin{
+    .gin{
     @include flex(none, center , center);
-    gap: 25px;
+    gap: 40px;
     .gin-1{
         border: none;
+        width: 20rem;
         p{
             @include font(1rem, none, none, italic);
             text-align: justify;
@@ -88,7 +88,7 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
             display: flex;
             justify-content: center;
             img{
-                width: 350px;
+                width: 300px;
                 height: auto;
                 
             }
@@ -96,6 +96,7 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
     }
     .gin-2{
         border: none;
+        width: 20rem;
         p{
             @include font(1rem, none, none, italic);
             text-align: justify;
@@ -104,13 +105,14 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
             display: flex;
             justify-content: center;
             img{
-                width: 350px;
+                width: 300px;
                 height: auto;  
             }
         }
     }
     .gin-3{
         border: none;
+        width: 20rem;
         p{
             @include font(1rem, none, none, italic);
             text-align: justify;
@@ -119,41 +121,172 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
             display: flex;
             justify-content: center;
             img{
-                width: 350px;
+                width: 300px;
                 height: auto;  
             }
         }
     }
+    }
 }
 @media screen and (max-width: 768px){
     .origen{
+        height: auto;
         padding: 10px 10px;
-      .origen1{
+      .origen-1{
         display: flex;
         flex-wrap: wrap;
+        margin-top: 0px;
+        justify-content: center;
       }  
       h1{
-          font-size: 40px;
+          font-size: 30px;
           text-align: center;
+          padding-top: 20px;
       }
       p{
           font-size: 1rem;
           text-align: center;
+          padding: 0px 20px;
       }
 }  
     .destilacion{
         padding: 10px 10px;
+        height: auto;
       .destilacion1{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
       }  
       h2{
-        font-size: 40px;
-        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
       }
       p{
         font-size: 1rem;
         text-align: center;
+        padding: 0px 20px;
       }
     }
-}    
+    .productos{
+        h2{
+            font-size: 20px;
+        }
+        .gin{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            gap: 20px;
+            .gin-1{
+                width: 20rem;
+                p{
+                    font-size: 10px;
+                }
+                .gin-1_1 img{
+                    width: 100px;
+                    height: auto;
+                }
+            }
+            .gin-2{
+                width: 20rem;
+                p{
+                    font-size: 10px;
+                }
+                .gin-2_2 img{
+                    width: 100px;
+                    height: auto;
+                }
+            }     
+            .gin-3{
+                width: 20rem;
+                p{
+                    font-size: 10px;
+                }
+                .gin-3_3 img{
+                    width: 100px;
+                    height: auto;
+                }
+            }                
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    .origen{
+        height: auto;
+        padding: 10px 10px;
+      .origen-1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        justify-content: center;
+      }  
+      h1{
+          font-size: 20px;
+          text-align: center;
+          padding-top: 20px;
+      }
+      p{
+          font-size: 10px;
+          text-align: center;
+          padding: 0px 20px;
+      }
+}  
+    .destilacion{
+        padding: 10px 10px;
+        height: auto;
+      .destilacion1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }  
+      h2{
+        font-size: 20px;
+        padding-top: 20px;
+      }
+      p{
+        font-size: 10px;
+        text-align: center;
+        padding: 0px 20px;
+      }
+    }
+    .productos{
+        h2{
+            font-size: 20px;
+        }
+        .gin{
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            gap: 5px;
+            .gin-1{
+                width: 20rem;
+                p{
+                    font-size: 10px;
+                }
+                .gin-1_1 img{
+                    width: 70px;
+                    height: auto;
+                }
+            }
+            .gin-2{
+                width: 20rem;
+                p{
+                    font-size: 10px;
+                }
+                .gin-2_2 img{
+                    width: 70px;
+                    height: auto;
+                }
+            }     
+            .gin-3{
+                width: 20rem;
+                p{
+                    font-size: 10px;
+                }
+                .gin-3_3 img{
+                    width: 70px;
+                    height: auto;
+                }
+            }                
+        }
+    }
+}      

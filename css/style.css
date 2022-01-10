@@ -19,7 +19,6 @@ body {
   color: whitesmoke; }
 
 .portada-1 .portada-1_2 p {
-  padding-bottom: 0px;
   color: whitesmoke;
   font-size: 23px;
   font-style: italic; }
@@ -66,31 +65,45 @@ body {
     flex-wrap: wrap; }
 
 @media screen and (max-width: 768px) {
-  .portada-1 .portada-1_1 {
+  .footer-1 {
     height: auto; }
-  .portada-1 .portada-1_2 h1, .portada-1 .portada-1_2 h2 {
-    font-size: 30px;
-    font-variant: small-caps;
-    font-weight: bold;
-    color: whitesmoke; }
-  .portada-1 .portada-1_2 p {
-    padding-bottom: 0px;
-    color: whitesmoke;
-    font-size: 1rem;
-    font-style: italic; }
+    .footer-1 .footer-1_1 .redes-1 h4 {
+      font-size: 1rem; }
+    .footer-1 .footer-1_1 .redes-1 img {
+      width: 50px;
+      height: auto;
+      padding-top: 20px; }
+    .footer-1 .footer-1_1 .redes-2_1 {
+      padding: 20px 0px; }
+      .footer-1 .footer-1_1 .redes-2_1 a {
+        width: 20px;
+        height: auto;
+        padding-inline-end: 60px; }
+    .footer-1 .footer-2_1 {
+      padding-top: 10px; }
+      .footer-1 .footer-2_1 .footer-2_1_1 {
+        flex-direction: column; }
+      .footer-1 .footer-2_1 .footer-2_1_1 a {
+        font-size: 1rem;
+        margin: 0px;
+        text-align: center; } }
+
+@media screen and (max-width: 576px) {
+  .portada-1 {
+    height: auto; }
   .footer-1 {
     height: auto; }
   .redes-1 h4 {
-    font-size: 1rem; }
+    font-size: 10px; }
   .redes-1 img {
-    width: 60px;
+    width: 50px;
     height: auto;
-    padding-top: 40px; }
+    padding-top: 20px; }
   .redes-2_1 img {
-    width: 20px;
+    width: 15px;
     height: auto; }
   .footer-2_1 {
-    padding-top: 20px; }
+    padding-top: 10px; }
   .footer-2_1_1 {
     flex-direction: column; }
   .footer-2_1_1 a {
@@ -99,7 +112,7 @@ body {
     text-align: center; } }
 
 .origen {
-  height: 80vh;
+  height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px;
@@ -160,85 +173,183 @@ body {
   height: 100vh; }
   .productos h2 {
     text-align: center;
-    color: whitesmoke;
+    color: #841617;
     font-size: 50px;
     font-variant: small-caps;
     font-weight: bold;
     font-style: none;
-    padding-bottom: 20px; }
-
-.gin {
-  display: flex;
-  flex-direction: none;
-  justify-content: center;
-  align-items: center;
-  gap: 25px; }
-  .gin .gin-1 {
-    border: none; }
-    .gin .gin-1 p {
-      font-size: 1rem;
-      font-variant: none;
-      font-weight: none;
-      font-style: italic;
-      text-align: justify; }
-    .gin .gin-1 .gin-1_1 {
-      display: flex;
-      justify-content: center; }
-      .gin .gin-1 .gin-1_1 img {
-        width: 350px;
-        height: auto; }
-  .gin .gin-2 {
-    border: none; }
-    .gin .gin-2 p {
-      font-size: 1rem;
-      font-variant: none;
-      font-weight: none;
-      font-style: italic;
-      text-align: justify; }
-    .gin .gin-2 .gin-2_2 {
-      display: flex;
-      justify-content: center; }
-      .gin .gin-2 .gin-2_2 img {
-        width: 350px;
-        height: auto; }
-  .gin .gin-3 {
-    border: none; }
-    .gin .gin-3 p {
-      font-size: 1rem;
-      font-variant: none;
-      font-weight: none;
-      font-style: italic;
-      text-align: justify; }
-    .gin .gin-3 .gin-3_3 {
-      display: flex;
-      justify-content: center; }
-      .gin .gin-3 .gin-3_3 img {
-        width: 350px;
-        height: auto; }
+    padding: 20px 0px; }
+  .productos .gin {
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; }
+    .productos .gin .gin-1 {
+      border: none;
+      width: 20rem; }
+      .productos .gin .gin-1 p {
+        font-size: 1rem;
+        font-variant: none;
+        font-weight: none;
+        font-style: italic;
+        text-align: justify; }
+      .productos .gin .gin-1 .gin-1_1 {
+        display: flex;
+        justify-content: center; }
+        .productos .gin .gin-1 .gin-1_1 img {
+          width: 300px;
+          height: auto; }
+    .productos .gin .gin-2 {
+      border: none;
+      width: 20rem; }
+      .productos .gin .gin-2 p {
+        font-size: 1rem;
+        font-variant: none;
+        font-weight: none;
+        font-style: italic;
+        text-align: justify; }
+      .productos .gin .gin-2 .gin-2_2 {
+        display: flex;
+        justify-content: center; }
+        .productos .gin .gin-2 .gin-2_2 img {
+          width: 300px;
+          height: auto; }
+    .productos .gin .gin-3 {
+      border: none;
+      width: 20rem; }
+      .productos .gin .gin-3 p {
+        font-size: 1rem;
+        font-variant: none;
+        font-weight: none;
+        font-style: italic;
+        text-align: justify; }
+      .productos .gin .gin-3 .gin-3_3 {
+        display: flex;
+        justify-content: center; }
+        .productos .gin .gin-3 .gin-3_3 img {
+          width: 300px;
+          height: auto; }
 
 @media screen and (max-width: 768px) {
   .origen {
+    height: auto;
     padding: 10px 10px; }
-    .origen .origen1 {
+    .origen .origen-1 {
       display: flex;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      margin-top: 0px;
+      justify-content: center; }
     .origen h1, .origen .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .origen h2 {
-      font-size: 40px;
-      text-align: center; }
+      font-size: 30px;
+      text-align: center;
+      padding-top: 20px; }
     .origen p {
       font-size: 1rem;
-      text-align: center; }
+      text-align: center;
+      padding: 0px 20px; }
   .destilacion {
-    padding: 10px 10px; }
+    padding: 10px 10px;
+    height: auto; }
     .destilacion .destilacion1 {
       display: flex;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      justify-content: center; }
     .destilacion h2 {
-      font-size: 40px;
-      text-align: center; }
+      font-size: 30px;
+      padding-top: 20px; }
     .destilacion p {
       font-size: 1rem;
-      text-align: center; } }
+      text-align: center;
+      padding: 0px 20px; }
+  .productos h2 {
+    font-size: 20px; }
+  .productos .gin {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 20px; }
+    .productos .gin .gin-1 {
+      width: 20rem; }
+      .productos .gin .gin-1 p {
+        font-size: 10px; }
+      .productos .gin .gin-1 .gin-1_1 img {
+        width: 100px;
+        height: auto; }
+    .productos .gin .gin-2 {
+      width: 20rem; }
+      .productos .gin .gin-2 p {
+        font-size: 10px; }
+      .productos .gin .gin-2 .gin-2_2 img {
+        width: 100px;
+        height: auto; }
+    .productos .gin .gin-3 {
+      width: 20rem; }
+      .productos .gin .gin-3 p {
+        font-size: 10px; }
+      .productos .gin .gin-3 .gin-3_3 img {
+        width: 100px;
+        height: auto; } }
+
+@media screen and (max-width: 320px) {
+  .origen {
+    height: auto;
+    padding: 10px 10px; }
+    .origen .origen-1 {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0px;
+      justify-content: center; }
+    .origen h1, .origen .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .origen h2 {
+      font-size: 20px;
+      text-align: center;
+      padding-top: 20px; }
+    .origen p {
+      font-size: 10px;
+      text-align: center;
+      padding: 0px 20px; }
+  .destilacion {
+    padding: 10px 10px;
+    height: auto; }
+    .destilacion .destilacion1 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .destilacion h2 {
+      font-size: 20px;
+      padding-top: 20px; }
+    .destilacion p {
+      font-size: 10px;
+      text-align: center;
+      padding: 0px 20px; }
+  .productos h2 {
+    font-size: 20px; }
+  .productos .gin {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 5px; }
+    .productos .gin .gin-1 {
+      width: 20rem; }
+      .productos .gin .gin-1 p {
+        font-size: 10px; }
+      .productos .gin .gin-1 .gin-1_1 img {
+        width: 70px;
+        height: auto; }
+    .productos .gin .gin-2 {
+      width: 20rem; }
+      .productos .gin .gin-2 p {
+        font-size: 10px; }
+      .productos .gin .gin-2 .gin-2_2 img {
+        width: 70px;
+        height: auto; }
+    .productos .gin .gin-3 {
+      width: 20rem; }
+      .productos .gin .gin-3 p {
+        font-size: 10px; }
+      .productos .gin .gin-3 .gin-3_3 img {
+        width: 70px;
+        height: auto; } }
 
 .botanicos {
   height: 80vh;
