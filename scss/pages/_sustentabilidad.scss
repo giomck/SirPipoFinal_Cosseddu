@@ -27,17 +27,19 @@
         width: 400px;
         height: auto;
     }
-    .cuidado-2 h2{
+    .cuidado-2{ 
+        h2{
         @include font(3rem,small-caps,none,none);
         color: map-get($map: $colores, $key: dorado);
         padding-top: 100px;
-    }
-    .cuidado-2 p{
+        }
+        p{
         @include font(20px,none,none,italic);
         color: map-get($map: $colores, $key: dorado);
         text-align: justify;
         padding-right: 40px;
-    }
+        }
+    }    
 }
 .reciclaje{
     border: none;
@@ -81,5 +83,158 @@
 }
 // Comienzo media queries sustentabilidad.html
 @media screen and (max-width: 768px){
-    
+    .sustentabilidad{
+        height: 300px;
+        padding: 10px 10px;
+        .sustentabilidad-1{
+            padding: 50px 80px;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 1rem;
+                padding: 0px 20px;
+            }
+        }
+    } 
+    .cuidado{
+        .cuidado-1{ 
+            display: flex;
+            justify-content: center;
+            img{
+                width: 200px;
+                height: auto;
+            }
+        }    
+        .cuidado-2{
+            h2{
+                font-size: 2rem;
+                padding-top: 0px;
+                text-align: center;
+            }
+            p{
+                font-size: 1rem;
+                padding: 0px 20px;
+                text-align: center;
+            }    
+        }
+    } 
+    .reciclaje{
+        .reciclaje-0{
+            display: flex;
+            flex-direction: column-reverse;
+            .reciclaje-1{
+                padding-right: 0px;
+                h2{
+                    font-size: 2rem;
+                    padding: 0px 0px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 1rem;
+                    padding-left: 20px;
+                    padding-right: 30px;
+                    text-align: center;
+                }    
+            }
+            .reciclaje-2{ 
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 150px;
+                    height: auto;
+                }
+            }       
+        }
+    }
+    .compostaje{
+        padding-bottom: 40px;
+        .compostaje-1{ 
+            display: flex;
+            justify-content: center;
+            img{
+                width: 200px;
+                height: auto;
+            }
+        }    
+        .compostaje-2{
+            h2{
+                font-size: 2rem;
+                padding-top: 0px;
+                text-align: center;
+            }
+            p{
+                font-size: 1rem;
+                padding: 0px 20px;
+                text-align: center;
+            }    
+        }
+    } 
+}
+@media screen and (max-width: 320px){
+    .sustentabilidad{
+        height: auto;
+        padding: 10px 10px;
+        .sustentabilidad-1{
+            padding: 20px 20px;
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 10px;
+                padding: 0px 20px;
+            }
+        }
+    } 
+    .cuidado{
+        .cuidado-1{ 
+            img{
+                width: 100px;
+                height: auto;
+            }
+        }    
+        .cuidado-2{
+            h2{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 10px;
+            }    
+        }
+    } 
+    .reciclaje{
+        .reciclaje-0{
+            .reciclaje-1{
+                h2{
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: 10px;
+                }    
+            }
+            .reciclaje-2{
+                img{
+                    width: 90px;
+                    height: auto;
+                }
+            }
+        }       
+    }
+    .compostaje{
+        padding-bottom: 20px;
+        .compostaje-1{ 
+            img{
+                width: 100px;
+                height: auto;
+            }
+        }    
+        .compostaje-2{
+            h2{
+                font-size: 1rem;
+            }
+            p{
+                font-size: 10px;
+            }    
+        }
+    } 
 }

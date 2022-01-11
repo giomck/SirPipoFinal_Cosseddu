@@ -109,7 +109,7 @@ body {
     font-variant: small-caps;
     font-weight: bold;
     color: whitesmoke; }
-  .origen .origen1 {
+  .origen .origen-1 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -137,7 +137,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0px 50px; }
-  .destilacion .destilacion1 {
+  .destilacion .destilacion-1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -220,31 +220,31 @@ body {
 
 @media screen and (max-width: 768px) {
   .origen {
-    height: auto;
+    height: 300px;
     padding: 10px 10px; }
     .origen .origen-1 {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       margin-top: 0px;
       justify-content: center; }
     .origen h1, .origen .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .origen h2 {
       font-size: 30px;
       text-align: center;
-      padding-top: 20px; }
+      padding-top: 80px; }
     .origen p {
       font-size: 1rem;
       text-align: center;
       padding: 0px 20px; }
   .destilacion {
     padding: 10px 10px;
-    height: auto; }
-    .destilacion .destilacion1 {
+    height: 300px; }
+    .destilacion .destilacion-1 {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
       justify-content: center; }
     .destilacion h2 {
       font-size: 30px;
-      padding-top: 20px; }
+      padding-top: 40px; }
     .destilacion p {
       font-size: 1rem;
       text-align: center;
@@ -298,7 +298,7 @@ body {
   .destilacion {
     padding: 10px 10px;
     height: auto; }
-    .destilacion .destilacion1 {
+    .destilacion .destilacion-1 {
       display: flex;
       flex-wrap: wrap;
       justify-content: center; }
@@ -516,12 +516,14 @@ body {
 
 @media screen and (max-width: 768px) {
   .botanicos {
-    height: auto;
+    height: 300px;
     padding: 10px 10px; }
-    .botanicos .botanicos-1 h1, .botanicos .botanicos-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .botanicos .botanicos-1 h2 {
-      font-size: 30px; }
-    .botanicos .botanicos-1 p {
-      font-size: 1rem; }
+    .botanicos .botanicos-1 {
+      padding: 80px 20px; }
+      .botanicos .botanicos-1 h1, .botanicos .botanicos-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .botanicos .botanicos-1 h2 {
+        font-size: 30px; }
+      .botanicos .botanicos-1 p {
+        font-size: 1rem; }
   .botanicos-2 {
     height: auto;
     gap: 15px; }
@@ -611,10 +613,14 @@ body {
         text-align: left; } }
 
 @media screen and (max-width: 320px) {
-  .botanicos .botanicos-1 h1, .botanicos .botanicos-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .botanicos .botanicos-1 h2 {
-    font-size: 20px; }
-  .botanicos .botanicos-1 p {
-    font-size: 10px; }
+  .botanicos {
+    height: max-content; }
+    .botanicos .botanicos-1 {
+      padding: 20px 20px; }
+      .botanicos .botanicos-1 h1, .botanicos .botanicos-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .botanicos .botanicos-1 h2 {
+        font-size: 20px; }
+      .botanicos .botanicos-1 p {
+        font-size: 10px; }
   .botanicos-2 .botanicos-2_1 {
     flex-direction: column; }
     .botanicos-2 .botanicos-2_1 .botanicos-2_1_1 img {
@@ -744,6 +750,103 @@ body {
     color: #8A7D5C;
     text-align: justify;
     padding-right: 40px; }
+
+@media screen and (max-width: 768px) {
+  .sustentabilidad {
+    height: 300px;
+    padding: 10px 10px; }
+    .sustentabilidad .sustentabilidad-1 {
+      padding: 50px 80px; }
+      .sustentabilidad .sustentabilidad-1 h1, .sustentabilidad .sustentabilidad-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .sustentabilidad .sustentabilidad-1 h2 {
+        font-size: 30px; }
+      .sustentabilidad .sustentabilidad-1 p {
+        font-size: 1rem;
+        padding: 0px 20px; }
+  .cuidado .cuidado-1 {
+    display: flex;
+    justify-content: center; }
+    .cuidado .cuidado-1 img {
+      width: 200px;
+      height: auto; }
+  .cuidado .cuidado-2 h2 {
+    font-size: 2rem;
+    padding-top: 0px;
+    text-align: center; }
+  .cuidado .cuidado-2 p {
+    font-size: 1rem;
+    padding: 0px 20px;
+    text-align: center; }
+  .reciclaje .reciclaje-0 {
+    display: flex;
+    flex-direction: column-reverse; }
+    .reciclaje .reciclaje-0 .reciclaje-1 {
+      padding-right: 0px; }
+      .reciclaje .reciclaje-0 .reciclaje-1 h2 {
+        font-size: 2rem;
+        padding: 0px 0px;
+        text-align: center; }
+      .reciclaje .reciclaje-0 .reciclaje-1 p {
+        font-size: 1rem;
+        padding-left: 20px;
+        padding-right: 30px;
+        text-align: center; }
+    .reciclaje .reciclaje-0 .reciclaje-2 {
+      display: flex;
+      justify-content: center; }
+      .reciclaje .reciclaje-0 .reciclaje-2 img {
+        width: 150px;
+        height: auto; }
+  .compostaje {
+    padding-bottom: 40px; }
+    .compostaje .compostaje-1 {
+      display: flex;
+      justify-content: center; }
+      .compostaje .compostaje-1 img {
+        width: 200px;
+        height: auto; }
+    .compostaje .compostaje-2 h2 {
+      font-size: 2rem;
+      padding-top: 0px;
+      text-align: center; }
+    .compostaje .compostaje-2 p {
+      font-size: 1rem;
+      padding: 0px 20px;
+      text-align: center; } }
+
+@media screen and (max-width: 320px) {
+  .sustentabilidad {
+    height: auto;
+    padding: 10px 10px; }
+    .sustentabilidad .sustentabilidad-1 {
+      padding: 20px 20px; }
+      .sustentabilidad .sustentabilidad-1 h1, .sustentabilidad .sustentabilidad-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .sustentabilidad .sustentabilidad-1 h2 {
+        font-size: 20px; }
+      .sustentabilidad .sustentabilidad-1 p {
+        font-size: 10px;
+        padding: 0px 20px; }
+  .cuidado .cuidado-1 img {
+    width: 100px;
+    height: auto; }
+  .cuidado .cuidado-2 h2 {
+    font-size: 1rem; }
+  .cuidado .cuidado-2 p {
+    font-size: 10px; }
+  .reciclaje .reciclaje-0 .reciclaje-1 h2 {
+    font-size: 1rem; }
+  .reciclaje .reciclaje-0 .reciclaje-1 p {
+    font-size: 10px; }
+  .reciclaje .reciclaje-0 .reciclaje-2 img {
+    width: 90px;
+    height: auto; }
+  .compostaje {
+    padding-bottom: 20px; }
+    .compostaje .compostaje-1 img {
+      width: 100px;
+      height: auto; }
+    .compostaje .compostaje-2 h2 {
+      font-size: 1rem; }
+    .compostaje .compostaje-2 p {
+      font-size: 10px; } }
 
 .cocktails {
   height: 80vh;

@@ -158,9 +158,10 @@
 // Comienzo de media queries botanicos.html
 @media screen and (max-width: 768px){
     .botanicos{
-        height: auto;
+        height: 300px;
         padding: 10px 10px;
         .botanicos-1{
+            padding: 80px 20px;
             h1{
                 font-size: 30px;
             }
@@ -297,7 +298,9 @@
 }
 @media screen and (max-width: 320px){
     .botanicos{
+        height: max-content;
         .botanicos-1{
+            padding: 20px 20px;
             h1{
                 font-size: 20px;
             }
