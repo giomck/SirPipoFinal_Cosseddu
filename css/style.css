@@ -88,7 +88,7 @@ body {
         margin: 0px;
         text-align: center; } }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 320px) {
   .portada-1 {
     height: auto; }
   .footer-1 {
@@ -384,42 +384,48 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px; }
-  .botanicos-2 .botanicos-2_1_1, .botanicos-2 .botanicos-2_2_1, .botanicos-2 .botanicos-2_3_1 {
-    display: flex;
-    justify-content: center; }
-    .botanicos-2 .botanicos-2_1_1 img, .botanicos-2 .botanicos-2_2_1 img, .botanicos-2 .botanicos-2_3_1 img {
+  .botanicos-2 .botanicos-2_1 {
+    width: 18rem; }
+    .botanicos-2 .botanicos-2_1 .botanicos-2_1_1, .botanicos-2 .botanicos-2_1 .botanicos-2_2 .botanicos-2_2_1, .botanicos-2 .botanicos-2_2 .botanicos-2_1 .botanicos-2_2_1, .botanicos-2 .botanicos-2_1 .botanicos-2_3 .botanicos-2_3_1, .botanicos-2 .botanicos-2_3 .botanicos-2_1 .botanicos-2_3_1 {
+      display: flex;
+      justify-content: center; }
+      .botanicos-2 .botanicos-2_1 .botanicos-2_1_1 img, .botanicos-2 .botanicos-2_1 .botanicos-2_2 .botanicos-2_2_1 img, .botanicos-2 .botanicos-2_2 .botanicos-2_1 .botanicos-2_2_1 img, .botanicos-2 .botanicos-2_1 .botanicos-2_3 .botanicos-2_3_1 img, .botanicos-2 .botanicos-2_3 .botanicos-2_1 .botanicos-2_3_1 img {
+        width: 200px;
+        height: auto; }
+    .botanicos-2 .botanicos-2_1 .botanicos-2_1_2 p {
+      font-size: 1rem;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+  .botanicos-2 .botanicos-2_2 {
+    width: 18rem; }
+    .botanicos-2 .botanicos-2_2 .botanicos-2_2_1 img {
       width: 200px;
       height: auto; }
-  .botanicos-2 .botanicos-2_1_2 p {
-    font-size: 1rem;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify; }
-  .botanicos-2 .botanicos-2_2_1 img {
-    width: 200px;
-    height: auto; }
-  .botanicos-2 .botanicos-2_2_2 p {
-    font-size: 1rem;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify; }
-  .botanicos-2 .botanicos-2_3_1 img {
-    width: 200px;
-    height: auto; }
-  .botanicos-2 .botanicos-2_3_2 p {
-    font-size: 1rem;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify; }
-  .botanicos-2 h5, .botanicos-2 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .botanicos-2 p, .botanicos-2 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .botanicos-2 li, .botanicos-2 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .botanicos-2 p, .botanicos-2 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .botanicos-2 li, .botanicos-2 .cocktails-1 .negroni p, .cocktails-1 .negroni .botanicos-2 p, .botanicos-2 .cocktails-1 .negroni li, .cocktails-1 .negroni .botanicos-2 li {
-    font-size: 20px;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: center; }
+    .botanicos-2 .botanicos-2_2 .botanicos-2_2_2 p {
+      font-size: 1rem;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+  .botanicos-2 .botanicos-2_3 {
+    width: 18rem; }
+    .botanicos-2 .botanicos-2_3 .botanicos-2_3_1 img {
+      width: 200px;
+      height: auto; }
+    .botanicos-2 .botanicos-2_3 .botanicos-2_3_2 p {
+      font-size: 1rem;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+    .botanicos-2 .botanicos-2_3 h5, .botanicos-2 .botanicos-2_3 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .botanicos-2 .botanicos-2_3 p, .botanicos-2 .botanicos-2_3 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .botanicos-2 .botanicos-2_3 li, .botanicos-2 .botanicos-2_3 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .botanicos-2 .botanicos-2_3 p, .botanicos-2 .botanicos-2_3 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .botanicos-2 .botanicos-2_3 li, .botanicos-2 .botanicos-2_3 .cocktails-1 .negroni p, .cocktails-1 .negroni .botanicos-2 .botanicos-2_3 p, .botanicos-2 .botanicos-2_3 .cocktails-1 .negroni li, .cocktails-1 .negroni .botanicos-2 .botanicos-2_3 li {
+      font-size: 20px;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: center; }
 
 .botanicos-3 {
   height: 100vh;
@@ -429,42 +435,57 @@ body {
   align-items: center;
   flex-wrap: wrap;
   gap: 100px; }
-  .botanicos-3 .botanicos-3_1_1, .botanicos-3 .botanicos-3_2_1, .botanicos-3 .botanicos-3_3_1 {
-    display: flex;
-    justify-content: center; }
-    .botanicos-3 .botanicos-3_1_1 img, .botanicos-3 .botanicos-3_2_1 img, .botanicos-3 .botanicos-3_3_1 img {
+  .botanicos-3 .botanicos-3_1 {
+    width: 18rem; }
+    .botanicos-3 .botanicos-3_1 .botanicos-3_1_1, .botanicos-3 .botanicos-3_1 .botanicos-3_2 .botanicos-3_2_1, .botanicos-3 .botanicos-3_2 .botanicos-3_1 .botanicos-3_2_1, .botanicos-3 .botanicos-3_1 .botanicos-3_3 .botanicos-3_3_1, .botanicos-3 .botanicos-3_3 .botanicos-3_1 .botanicos-3_3_1 {
+      display: flex;
+      justify-content: center; }
+      .botanicos-3 .botanicos-3_1 .botanicos-3_1_1 img, .botanicos-3 .botanicos-3_1 .botanicos-3_2 .botanicos-3_2_1 img, .botanicos-3 .botanicos-3_2 .botanicos-3_1 .botanicos-3_2_1 img, .botanicos-3 .botanicos-3_1 .botanicos-3_3 .botanicos-3_3_1 img, .botanicos-3 .botanicos-3_3 .botanicos-3_1 .botanicos-3_3_1 img {
+        width: 200px;
+        height: auto; }
+    .botanicos-3 .botanicos-3_1 .botanicos-3_1_2 p {
+      font-size: 1rem;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+  .botanicos-3 .botanicos-3_2 {
+    width: 18rem; }
+    .botanicos-3 .botanicos-3_2 .botanicos-3_2_1 img {
       width: 200px;
       height: auto; }
-  .botanicos-3 .botanicos-3_1_2 p {
-    font-size: 1rem;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify; }
-  .botanicos-3 .botanicos-3_2_1 img {
-    width: 200px;
-    height: auto; }
-  .botanicos-3 .botanicos-3_2_2 p {
-    font-size: 1rem;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify; }
-  .botanicos-3 .botanicos-3_3_1 img {
-    width: 200px;
-    height: auto; }
-  .botanicos-3 .botanicos-3_3_2 p {
-    font-size: 1rem;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: justify; }
-  .botanicos-3 h5, .botanicos-3 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .botanicos-3 p, .botanicos-3 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .botanicos-3 li, .botanicos-3 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .botanicos-3 p, .botanicos-3 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .botanicos-3 li, .botanicos-3 .cocktails-1 .negroni p, .cocktails-1 .negroni .botanicos-3 p, .botanicos-3 .cocktails-1 .negroni li, .cocktails-1 .negroni .botanicos-3 li {
-    font-size: 20px;
-    font-variant: none;
-    font-weight: none;
-    font-style: italic;
-    text-align: center; }
+    .botanicos-3 .botanicos-3_2 .botanicos-3_2_2 p {
+      font-size: 1rem;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+  .botanicos-3 .botanicos-3_3 {
+    width: 18rem; }
+    .botanicos-3 .botanicos-3_3 .botanicos-3_3_1 img {
+      width: 200px;
+      height: auto; }
+    .botanicos-3 .botanicos-3_3 .botanicos-3_3_2 p {
+      font-size: 1rem;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: justify; }
+    .botanicos-3 .botanicos-3_3 h5, .botanicos-3 .botanicos-3_3 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .botanicos-3 .botanicos-3_3 p, .botanicos-3 .botanicos-3_3 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .botanicos-3 .botanicos-3_3 li, .botanicos-3 .botanicos-3_3 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .botanicos-3 .botanicos-3_3 p, .botanicos-3 .botanicos-3_3 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .botanicos-3 .botanicos-3_3 li, .botanicos-3 .botanicos-3_3 .cocktails-1 .negroni p, .cocktails-1 .negroni .botanicos-3 .botanicos-3_3 p, .botanicos-3 .botanicos-3_3 .cocktails-1 .negroni li, .cocktails-1 .negroni .botanicos-3 .botanicos-3_3 li {
+      font-size: 20px;
+      font-variant: none;
+      font-weight: none;
+      font-style: italic;
+      text-align: center; }
+
+@media screen and (max-width: 768px) {
+  .botanicos {
+    height: auto;
+    padding: 10px 10px; }
+    .botanicos .botanicos-2_1 {
+      width: 5rem; }
+    .botanicos .botanicos-2_2 {
+      width: 5rem; } }
 
 .sustentabilidad {
   height: 80vh;
