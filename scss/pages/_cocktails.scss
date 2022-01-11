@@ -1,3 +1,4 @@
+// comienzo css cocktails.html
 .cocktails{
     height: 80vh;
     background-repeat: no-repeat;
@@ -19,7 +20,7 @@
         margin: 20px 20px;
         border: none;
         box-shadow: 0px 0px 5px 1px gray;
-        
+        width: 20rem;
         h5{
             color: map-get($map: $colores, $key: rojo);
             text-align: center;
@@ -44,6 +45,7 @@
         margin: 20px 20px;
         border: none;
         box-shadow: 0px 0px 5px 1px gray;
+        width: 20rem;
         h5{
             color: map-get($map: $colores, $key: rojo);
             text-align: center;
@@ -68,6 +70,7 @@
         margin: 20px 20px;
         border: none;
         box-shadow: 0px 0px 5px 1px gray;
+        width: 20rem;
         h5{
             color: map-get($map: $colores, $key: rojo);
             text-align: center;
@@ -88,4 +91,100 @@
             }
         }
     }
+}
+// Comienzo de media queries cocktails.html
+@media screen and (max-width: 768px){
+    .cocktails{
+        height: 300px;
+        padding: 10px 10px;
+        h1{
+            font-size: 30px;
+            padding-top: 60px;
+        }
+    }
+    .cocktails-1{
+        flex-direction: column;
+        height: auto;
+        .martini-dry{
+            justify-content: center;
+            margin: 10px 0px;
+            width: 25rem;
+            .martini-dry-1 img{
+               width: 200px;
+           }
+        }
+        .gin-tonic{
+            justify-content: center;
+            margin: 10px 0px;
+            width: 25rem;
+            .gin-tonic-1 img{
+               width: 200px;
+           }
+        }
+        .negroni{
+            justify-content: center;
+            margin: 10px 0px;
+            width: 25rem;
+            .negroni-1 img{
+               width: 200px;
+           }
+        }
+    }    
+}
+@media screen and (max-width: 320px){
+    .cocktails{
+        height: 150px;
+        h1{
+            font-size: 20px;
+            padding-top: 30px;
+        }
+    }
+    .cocktails-1{
+        margin-bottom: 20px;
+        .martini-dry{
+            width: 10rem;
+            h5{
+                font-size: 10px;
+            }
+            p{
+                font-size: 10px;
+            }
+            li{
+                font-size: 10px;
+            }
+            .martini-dry-1 img{
+               width: 100px;
+           }
+        }
+        .gin-tonic{
+            width: 10rem;
+            h5{
+                font-size: 10px;
+            }
+            p{
+                font-size: 10px;
+            }
+            li{
+                font-size: 10px;
+            }
+            .gin-tonic-1 img{
+               width: 100px;
+           }
+        }
+        .negroni{
+            width: 10rem;
+            h5{
+                font-size: 10px;
+            }
+            p{
+                font-size: 10px;
+            }
+            li{
+                font-size: 10px;
+            }
+            .negroni-1 img{
+               width: 100px;
+           }
+        }
+    }    
 }
