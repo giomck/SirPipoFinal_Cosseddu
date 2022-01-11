@@ -986,6 +986,7 @@ body {
 
 .contacto-1 {
   height: 50vh;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5px; }
@@ -1025,3 +1026,25 @@ body {
   justify-content: center; }
   .redes-4_1 a {
     padding: 40px; }
+
+@media screen and (max-width: 768px) {
+  .contacto-1 {
+    height: 200px;
+    padding: 10px 10px; }
+    .contacto-1 h1, .contacto-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .contacto-1 h2 {
+      font-size: 30px;
+      padding-top: 120px; }
+  .contacto-2 h5, .contacto-2 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .contacto-2 p, .contacto-2 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .contacto-2 li, .contacto-2 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .contacto-2 p, .contacto-2 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .contacto-2 li, .contacto-2 .cocktails-1 .negroni p, .cocktails-1 .negroni .contacto-2 p, .contacto-2 .cocktails-1 .negroni li, .cocktails-1 .negroni .contacto-2 li {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 320px) {
+  .contacto-1 {
+    height: 200px;
+    padding: 10px 10px; }
+    .contacto-1 h1, .contacto-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .contacto-1 h2 {
+      font-size: 30px;
+      padding-top: 120px; }
+  .contacto-2 {
+    padding: 10px 0px; }
+    .contacto-2 h5, .contacto-2 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .contacto-2 p, .contacto-2 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .contacto-2 li, .contacto-2 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .contacto-2 p, .contacto-2 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .contacto-2 li, .contacto-2 .cocktails-1 .negroni p, .cocktails-1 .negroni .contacto-2 p, .contacto-2 .cocktails-1 .negroni li, .cocktails-1 .negroni .contacto-2 li {
+      font-size: 10px; } }
