@@ -42,12 +42,12 @@ body {
     height: auto;
     padding-top: 100px; }
 
-.redes-2_1 {
+.redes-2 .redes-2_1 {
+  padding: 40px 0px;
   display: flex;
-  justify-content: center;
-  padding: 40px 0px; }
-  .redes-2_1 a {
-    padding-inline-end: 40px; }
+  justify-content: center; }
+  .redes-2 .redes-2_1 img {
+    padding-inline: 20px; }
 
 .footer-2_1_1 {
   display: flex;
@@ -65,6 +65,14 @@ body {
     flex-wrap: wrap; }
 
 @media screen and (max-width: 768px) {
+  .portada-1 .portada-1_1 {
+    height: 350px; }
+  .portada-1 .portada-1_2 h1, .portada-1 .portada-1_2 h2 {
+    font-size: 3rem; }
+  .portada-1 .portada-1_2 h2 {
+    font-size: 3rem; }
+  .portada-1 .portada-1_2 p {
+    font-size: 1rem; }
   .footer-1 {
     height: auto; }
     .footer-1 .footer-1_1 .redes-1 h4 {
@@ -73,12 +81,11 @@ body {
       width: 50px;
       height: auto;
       padding-top: 20px; }
-    .footer-1 .footer-1_1 .redes-2_1 {
+    .footer-1 .footer-1_1 .redes-2 .redes-2_1 {
       padding: 20px 0px; }
-      .footer-1 .footer-1_1 .redes-2_1 a {
-        width: 20px;
-        height: auto;
-        padding-inline-end: 60px; }
+    .footer-1 .redes-2_1 img {
+      width: 60px;
+      height: auto; }
     .footer-1 .footer-2_1 {
       padding-top: 10px; }
       .footer-1 .footer-2_1 .footer-2_1_1 {
@@ -89,14 +96,30 @@ body {
         text-align: center; } }
 
 @media screen and (max-width: 320px) {
-  .portada-1 {
+  .portada-1 .portada-1_1 {
     height: auto; }
-  .redes-2_1 a {
-    padding-inline-end: 5px;
-    padding-left: 30px; }
-  .redes-2_1 img {
-    width: 15px;
-    height: 15px; } }
+  .portada-1 .portada-1_2 h1, .portada-1 .portada-1_2 h2 {
+    font-size: 1rem; }
+  .portada-1 .portada-1_2 h2 {
+    font-size: 1rem; }
+  .portada-1 .portada-1_2 p {
+    font-size: 10px; }
+  .footer-1 {
+    height: auto; }
+  .redes-1 h4 {
+    font-size: 20px; }
+  .redes-1 img {
+    width: 40px;
+    height: auto;
+    padding-top: 20px; }
+  .footer-2_1 {
+    padding-top: 10px; }
+    .footer-2_1 .footer-2_1_1 {
+      flex-direction: column; }
+  .footer-2_1_1 a {
+    font-size: 10px;
+    margin: 0px;
+    text-align: center; } }
 
 .origen {
   height: 85vh;
@@ -253,27 +276,30 @@ body {
     font-size: 20px; }
   .productos .gin {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     height: auto;
     gap: 20px; }
     .productos .gin .gin-1 {
-      width: 20rem; }
+      width: 30rem; }
       .productos .gin .gin-1 p {
-        font-size: 10px; }
+        font-size: 10px;
+        text-align: center; }
       .productos .gin .gin-1 .gin-1_1 img {
         width: 100px;
         height: auto; }
     .productos .gin .gin-2 {
-      width: 20rem; }
+      width: 30rem; }
       .productos .gin .gin-2 p {
-        font-size: 10px; }
+        font-size: 10px;
+        text-align: center; }
       .productos .gin .gin-2 .gin-2_2 img {
         width: 100px;
         height: auto; }
     .productos .gin .gin-3 {
-      width: 20rem; }
+      width: 30rem; }
       .productos .gin .gin-3 p {
-        font-size: 10px; }
+        font-size: 10px;
+        text-align: center; }
       .productos .gin .gin-3 .gin-3_3 img {
         width: 100px;
         height: auto; } }
@@ -312,26 +338,24 @@ body {
   .productos h2 {
     font-size: 20px; }
   .productos .gin {
-    display: flex;
-    flex-wrap: wrap;
     height: auto;
     gap: 5px; }
     .productos .gin .gin-1 {
-      width: 20rem; }
+      width: 15rem; }
       .productos .gin .gin-1 p {
         font-size: 10px; }
       .productos .gin .gin-1 .gin-1_1 img {
         width: 70px;
         height: auto; }
     .productos .gin .gin-2 {
-      width: 20rem; }
+      width: 15rem; }
       .productos .gin .gin-2 p {
         font-size: 10px; }
       .productos .gin .gin-2 .gin-2_2 img {
         width: 70px;
         height: auto; }
     .productos .gin .gin-3 {
-      width: 20rem; }
+      width: 15rem; }
       .productos .gin .gin-3 p {
         font-size: 10px; }
       .productos .gin .gin-3 .gin-3_3 img {
@@ -1047,4 +1071,13 @@ body {
   .contacto-2 {
     padding: 10px 0px; }
     .contacto-2 h5, .contacto-2 .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry .contacto-2 p, .contacto-2 .cocktails-1 .martini-dry li, .cocktails-1 .martini-dry .contacto-2 li, .contacto-2 .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic .contacto-2 p, .contacto-2 .cocktails-1 .gin-tonic li, .cocktails-1 .gin-tonic .contacto-2 li, .contacto-2 .cocktails-1 .negroni p, .cocktails-1 .negroni .contacto-2 p, .contacto-2 .cocktails-1 .negroni li, .cocktails-1 .negroni .contacto-2 li {
-      font-size: 10px; } }
+      font-size: 10px; }
+  .footer-3 {
+    height: max-content; }
+    .footer-3 .redes-3 h4 {
+      font-size: 10px; }
+    .footer-3 .redes-4_1 a {
+      padding: 10px; }
+    .footer-3 .redes-4_1 img {
+      width: 15px;
+      height: auto; } }

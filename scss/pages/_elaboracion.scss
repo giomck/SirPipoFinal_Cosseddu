@@ -4,6 +4,7 @@
     font-weight: $weight;
     font-style: $style;
 }
+// comienzo css elaboracion.html
 .origen{
     height: 85vh;
     background-repeat: no-repeat;
@@ -120,6 +121,7 @@
     }
     }
 }
+// comienzo de media queries elaboracion.html
 @media screen and (max-width: 768px){
     .origen{
         height: 300px;
@@ -165,13 +167,14 @@
         }
         .gin{
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             height: auto;
             gap: 20px;
             .gin-1{
-                width: 20rem;
+                width: 30rem;
                 p{
                     font-size: 10px;
+                    text-align: center;
                 }
                 .gin-1_1 img{
                     width: 100px;
@@ -179,9 +182,10 @@
                 }
             }
             .gin-2{
-                width: 20rem;
+                width: 30rem;
                 p{
                     font-size: 10px;
+                    text-align: center;
                 }
                 .gin-2_2 img{
                     width: 100px;
@@ -189,9 +193,10 @@
                 }
             }     
             .gin-3{
-                width: 20rem;
+                width: 30rem;
                 p{
                     font-size: 10px;
+                    text-align: center;
                 }
                 .gin-3_3 img{
                     width: 100px;
@@ -245,12 +250,10 @@
             font-size: 20px;
         }
         .gin{
-            display: flex;
-            flex-wrap: wrap;
             height: auto;
             gap: 5px;
             .gin-1{
-                width: 20rem;
+                width: 15rem;
                 p{
                     font-size: 10px;
                 }
@@ -260,7 +263,7 @@
                 }
             }
             .gin-2{
-                width: 20rem;
+                width: 15rem;
                 p{
                     font-size: 10px;
                 }
@@ -270,7 +273,7 @@
                 }
             }     
             .gin-3{
-                width: 20rem;
+                width: 15rem;
                 p{
                     font-size: 10px;
                 }

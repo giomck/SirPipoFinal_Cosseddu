@@ -34,6 +34,7 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
 }
 .footer-1{
     height: 100vh;
+
 }
 .redes-1{
     display: flex;
@@ -53,12 +54,14 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
         padding-top: 100px;
         }
 }
-.redes-2_1{
-    display: flex;
-    justify-content: center;
-    padding: 40px 0px;
-    a{
-        padding-inline-end: 40px;
+.redes-2{
+    .redes-2_1{
+        padding: 40px 0px;
+        display: flex;
+        justify-content: center;
+        img{
+            padding-inline: 20px;
+        }
     }
 }
 .footer-2_1_1{
@@ -79,7 +82,22 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
 }
 // Comienzo media queries index.html
 @media screen and (max-width: 768px){    
-
+    .portada-1{
+        .portada-1_1{
+            height: 350px;
+        }
+        .portada-1_2{
+            h1{
+                font-size: 3rem;
+            }
+            h2{
+                font-size: 3rem;
+            }
+            p{
+               font-size: 1rem;
+            }
+        }
+    }
     .footer-1{
         height: auto;
         .footer-1_1{
@@ -91,15 +109,16 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
                 height: auto;
                 padding-top: 20px;
             }
-            .redes-2_1{
-                padding: 20px 0px;
-                a{
-                     width: 20px;
-                     height: auto;
-                     padding-inline-end: 60px;
+            .redes-2{
+                .redes-2_1{
+                    padding: 20px 0px;
                 }
             }
         }
+        .redes-2_1 img{
+            width: 60px;
+            height: auto;
+        } 
         .footer-2_1{
             padding-top: 10px;
             .footer-2_1_1{
@@ -114,18 +133,45 @@ $colores: (blanco: whitesmoke, dorado: #8A7D5C, rojo: #841617);
     }  
 }
 @media screen and (max-width: 320px){
-   .portada-1{
-       height: auto;
+    .portada-1{
+        .portada-1_1{
+            height: auto;
+        }
+        .portada-1_2{
+            h1{
+                font-size: 1rem;
+            }
+            h2{
+                font-size: 1rem;
+            }
+            p{
+               font-size: 10px;
+            }
+        }
     }
-    .redes-2_1 a{ 
-        padding-inline-end: 5px;  
-        padding-left: 30px; 
+    .footer-1{
+        height: auto;
     }
-    .redes-2_1 img{
-        width: 15px;
-        height: 15px;
-    }
- 
-       
+        .redes-1{ 
+            h4{
+                font-size: 20px;   
+            }
+            img{
+                width: 40px;
+                height: auto;
+                padding-top: 20px;
+            }
+        }
+        .footer-2_1{
+            padding-top: 10px;
+            .footer-2_1_1{
+                flex-direction: column;
+            }
+        }
+        .footer-2_1_1 a{
+            font-size: 10px;
+            margin: 0px;
+            text-align: center;
+        }
     
-}    
+}   
