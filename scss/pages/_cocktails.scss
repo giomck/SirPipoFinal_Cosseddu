@@ -1,6 +1,6 @@
 // comienzo css cocktails.html
 .cocktails{
-    height: 80vh;
+    height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5px;
@@ -131,6 +131,12 @@
         }
     }    
 }
+@media screen and (max-width: 600px){
+    
+}
+@media screen and (max-width: 480px){
+    
+}
 @media screen and (max-width: 320px){
     .cocktails{
         height: 150px;
@@ -188,3 +194,4 @@
         }
     }    
 }
+
