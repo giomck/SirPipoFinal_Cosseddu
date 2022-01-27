@@ -314,6 +314,53 @@ body {
         width: 100px;
         height: auto; } }
 
+@media screen and (max-width: 600px) {
+  .origen {
+    padding-left: 10px;
+    padding-right: 70px; }
+  .destilacion {
+    padding-left: 10px;
+    padding-right: 70px; }
+  .productos {
+    height: auto; }
+    .productos .gin .gin-1 p {
+      padding-right: 50px; }
+    .productos .gin .gin-1 .gin-1_1 {
+      padding-right: 50px; }
+    .productos .gin .gin-2 p {
+      padding-right: 50px; }
+    .productos .gin .gin-2 .gin-2_2 {
+      padding-right: 50px; }
+    .productos .gin .gin-3 p {
+      padding-right: 50px; }
+    .productos .gin .gin-3 .gin-3_3 {
+      padding-right: 50px; } }
+
+@media screen and (max-width: 480px) {
+  .origen {
+    padding-left: 10px;
+    padding-right: 30px; }
+  .destilacion {
+    padding-left: 10px;
+    padding-right: 30px; }
+  .gin .gin-1 p {
+    padding-left: 70px;
+    padding-right: 40px; }
+  .gin .gin-1 .gin-1_1 {
+    padding-left: 70px; }
+  .gin .gin-2 p {
+    padding-left: 70px;
+    padding-right: 40px; }
+  .gin .gin-2 .gin-2_2 {
+    padding-left: 70px; }
+  .gin .gin-3 {
+    padding-bottom: 20px; }
+    .gin .gin-3 p {
+      padding-left: 70px;
+      padding-right: 40px; }
+    .gin .gin-3 .gin-3_3 {
+      padding-left: 70px; } }
+
 @media screen and (max-width: 320px) {
   .origen {
     height: auto;
@@ -654,7 +701,7 @@ body {
       .botanicos .botanicos-1 h1, .botanicos .botanicos-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .botanicos .botanicos-1 h2 {
         font-size: 20px; }
       .botanicos .botanicos-1 p {
-        font-size: 10px; }
+        font-size: 8px; }
   .botanicos-2 .botanicos-2_1 {
     flex-direction: column; }
     .botanicos-2 .botanicos-2_1 .botanicos-2_1_1 img {
@@ -788,14 +835,14 @@ body {
 @media screen and (max-width: 768px) {
   .sustentabilidad {
     height: 300px;
-    padding: 10px 10px; }
+    padding: 5px 10px; }
     .sustentabilidad .sustentabilidad-1 {
       padding: 50px 80px; }
       .sustentabilidad .sustentabilidad-1 h1, .sustentabilidad .sustentabilidad-1 .portada-1 .portada-1_2 h2, .portada-1 .portada-1_2 .sustentabilidad .sustentabilidad-1 h2 {
         font-size: 30px; }
       .sustentabilidad .sustentabilidad-1 p {
         font-size: 1rem;
-        padding: 0px 20px; }
+        padding: 0px 0px; }
   .cuidado .cuidado-1 {
     display: flex;
     justify-content: center; }
@@ -978,6 +1025,23 @@ body {
       width: 25rem; }
       .cocktails-1 .negroni .negroni-1 img {
         width: 200px; } }
+
+@media screen and (max-width: 480px) {
+  .cocktails {
+    height: 250px; }
+  .cocktails-1 .martini-dry {
+    width: 20rem; }
+    .cocktails-1 .martini-dry .martini-dry-1 img {
+      width: 150px; }
+  .cocktails-1 .gin-tonic {
+    width: 20rem; }
+    .cocktails-1 .gin-tonic .gin-tonic-1 img {
+      width: 150px; }
+  .cocktails-1 .negroni {
+    width: 20rem;
+    margin-bottom: 20px; }
+    .cocktails-1 .negroni .negroni-1 img {
+      width: 150px; } }
 
 @media screen and (max-width: 320px) {
   .cocktails {

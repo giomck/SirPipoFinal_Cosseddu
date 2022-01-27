@@ -131,11 +131,31 @@
         }
     }    
 }
-@media screen and (max-width: 600px){
-    
-}
 @media screen and (max-width: 480px){
-    
+    .cocktails{
+        height: 250px;
+    }
+    .cocktails-1{
+        .martini-dry{
+            width: 20rem;
+            .martini-dry-1 img{
+               width: 150px;
+           }
+        }
+        .gin-tonic{
+            width: 20rem;
+            .gin-tonic-1 img{
+               width: 150px;
+           }
+        }
+        .negroni{
+            width: 20rem;
+            margin-bottom: 20px;
+            .negroni-1 img{
+               width: 150px;
+           }
+        }
+    } 
 }
 @media screen and (max-width: 320px){
     .cocktails{

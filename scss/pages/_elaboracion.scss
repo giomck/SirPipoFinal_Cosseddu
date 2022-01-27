@@ -206,6 +206,85 @@
         }
     }
 }
+@media screen and (max-width: 600px){
+    .origen{
+        padding-left: 10px;  
+        padding-right: 70px; 
+    }  
+    .destilacion{
+        padding-left: 10px;
+        padding-right: 70px;
+    }
+    .productos{
+        height: auto; 
+        .gin{
+            .gin-1{
+                p{
+                    padding-right: 50px;
+                }
+                .gin-1_1{
+                    padding-right: 50px;
+                }
+            }
+            .gin-2{
+                p{
+                    padding-right: 50px;
+                }
+                .gin-2_2{
+                    padding-right: 50px;
+                }
+            }     
+            .gin-3{
+                p{
+                    padding-right: 50px;
+                }
+                .gin-3_3{
+                    padding-right: 50px;
+                }   
+            }                
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .origen{
+        padding-left: 10px;  
+        padding-right: 30px; 
+    }  
+    .destilacion{
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .gin{
+        .gin-1{
+            p{
+                padding-left: 70px;
+                padding-right: 40px;
+            }
+            .gin-1_1{
+                padding-left: 70px;
+            }
+        }
+        .gin-2{
+            p{
+                padding-left: 70px;
+                padding-right: 40px;
+            }
+            .gin-2_2{
+                padding-left: 70px;
+            }
+        }     
+        .gin-3{
+            padding-bottom: 20px;
+            p{
+                padding-left: 70px;
+                padding-right: 40px;
+            }
+            .gin-3_3{
+                padding-left: 70px;
+            }   
+        }                
+    }
+}
 @media screen and (max-width: 320px){
     .origen{
         height: auto;
