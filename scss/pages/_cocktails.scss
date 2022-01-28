@@ -168,23 +168,32 @@
     }
     .cocktails-1{
         .martini-dry{
-            width: 20rem;
+            width: 15rem;
             .martini-dry-1 img{
                width: 150px;
            }
         }
+        .martini-dry:hover{
+            height: auto; width: 20rem;
+        }
         .gin-tonic{
-            width: 20rem;
+            width: 15rem;
             .gin-tonic-1 img{
                width: 150px;
            }
         }
+        .gin-tonic:hover{
+            height: auto; width: 20rem;
+        }
         .negroni{
-            width: 20rem;
+            width: 15rem;
             margin-bottom: 20px;
             .negroni-1 img{
                width: 150px;
            }
+        }
+        .negroni:hover{
+            height: auto; width: 20rem;
         }
     } 
 }
@@ -199,7 +208,7 @@
     .cocktails-1{
         margin-bottom: 20px;
         .martini-dry{
-            width: 10rem;
+            width: 8rem;
             h5{
                 font-size: 10px;
             }
@@ -213,8 +222,11 @@
                width: 100px;
            }
         }
+        .martini-dry:hover{
+            height: auto; width: 10rem;
+        }
         .gin-tonic{
-            width: 10rem;
+            width: 8rem;
             h5{
                 font-size: 10px;
             }
@@ -228,8 +240,11 @@
                width: 100px;
            }
         }
+        .gin:hover{
+            height: auto; width: 10rem;
+        }
         .negroni{
-            width: 10rem;
+            width: 8rem;
             h5{
                 font-size: 10px;
             }
@@ -242,6 +257,9 @@
             .negroni-1 img{
                width: 100px;
            }
+        }
+        .negroni:hover{
+            height: auto; width: 10rem;
         }
     }    
 }

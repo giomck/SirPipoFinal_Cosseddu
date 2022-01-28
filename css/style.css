@@ -1058,18 +1058,27 @@ body {
   .cocktails {
     height: 250px; }
   .cocktails-1 .martini-dry {
-    width: 20rem; }
+    width: 15rem; }
     .cocktails-1 .martini-dry .martini-dry-1 img {
       width: 150px; }
-  .cocktails-1 .gin-tonic {
+  .cocktails-1 .martini-dry:hover {
+    height: auto;
     width: 20rem; }
+  .cocktails-1 .gin-tonic {
+    width: 15rem; }
     .cocktails-1 .gin-tonic .gin-tonic-1 img {
       width: 150px; }
+  .cocktails-1 .gin-tonic:hover {
+    height: auto;
+    width: 20rem; }
   .cocktails-1 .negroni {
-    width: 20rem;
+    width: 15rem;
     margin-bottom: 20px; }
     .cocktails-1 .negroni .negroni-1 img {
-      width: 150px; } }
+      width: 150px; }
+  .cocktails-1 .negroni:hover {
+    height: auto;
+    width: 20rem; } }
 
 @media screen and (max-width: 320px) {
   .cocktails {
@@ -1080,7 +1089,7 @@ body {
   .cocktails-1 {
     margin-bottom: 20px; }
     .cocktails-1 .martini-dry {
-      width: 10rem; }
+      width: 8rem; }
       .cocktails-1 .martini-dry h5, .cocktails-1 .martini-dry p, .cocktails-1 .martini-dry li {
         font-size: 10px; }
       .cocktails-1 .martini-dry p {
@@ -1089,8 +1098,11 @@ body {
         font-size: 10px; }
       .cocktails-1 .martini-dry .martini-dry-1 img {
         width: 100px; }
-    .cocktails-1 .gin-tonic {
+    .cocktails-1 .martini-dry:hover {
+      height: auto;
       width: 10rem; }
+    .cocktails-1 .gin-tonic {
+      width: 8rem; }
       .cocktails-1 .gin-tonic h5, .cocktails-1 .gin-tonic p, .cocktails-1 .gin-tonic li {
         font-size: 10px; }
       .cocktails-1 .gin-tonic p {
@@ -1099,8 +1111,11 @@ body {
         font-size: 10px; }
       .cocktails-1 .gin-tonic .gin-tonic-1 img {
         width: 100px; }
-    .cocktails-1 .negroni {
+    .cocktails-1 .gin:hover {
+      height: auto;
       width: 10rem; }
+    .cocktails-1 .negroni {
+      width: 8rem; }
       .cocktails-1 .negroni h5, .cocktails-1 .negroni p, .cocktails-1 .negroni li {
         font-size: 10px; }
       .cocktails-1 .negroni p {
@@ -1108,7 +1123,10 @@ body {
       .cocktails-1 .negroni li {
         font-size: 10px; }
       .cocktails-1 .negroni .negroni-1 img {
-        width: 100px; } }
+        width: 100px; }
+    .cocktails-1 .negroni:hover {
+      height: auto;
+      width: 10rem; } }
 
 .contacto-1 {
   height: 50vh;
